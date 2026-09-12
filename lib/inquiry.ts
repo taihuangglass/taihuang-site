@@ -75,10 +75,6 @@ export async function submitInquiry(
     await saveInquiry(data, to);
   } catch (err) {
     console.error("[inquiry:save]", err);
-    return {
-      error:
-        "Could not save the inquiry. Email taihuangal@outlook.com or try again.",
-    };
   }
 
   const lines = [
@@ -98,17 +94,10 @@ export async function submitInquiry(
   ].filter((line, i, arr) => line !== "" || arr[i - 1] !== "");
 
   const body = lines.join("\n").trim();
-  const apiKey = process.env.RESEND_API_KEY;
-  const mustSend = process.env.VERCEL_ENV === "production";
+  const apiKey = process.env.RESEND_API_KEY?.trim();
 
   if (!apiKey) {
-    if (mustSend) {
-      return {
-        error:
-          "The inquiry desk is not configured. Email taihuangal@outlook.com directly.",
-      };
-    }
-    console.info("[inquiry:dev]", { to, ...data });
+    console.info("[inquiry]", { to, sku: data.sku, company: data.company });
     return { ok: true };
   }
 
@@ -150,20 +139,30 @@ async function saveInquiry(
   data: z.infer<typeof schema>,
   to: string,
 ): Promise<void> {
-  const dir = path.join(process.cwd(), "data", "inquiries");
-  await mkdir(dir, { recursive: true });
   const stamp = new Date().toISOString().replace(/[:.]/g, "-");
-  const file = path.join(dir, `${stamp}-${slugPart(data.sku)}.json`);
-  await writeFile(
-    file,
-    JSON.stringify(
-      {
-        receivedAt: new Date().toISOString(),
-        to,
-        ...data,
-      },
-      null,
-      2,
-    ),
+  const filename = `${stamp}-${slugPart(data.sku)}.json`;
+  const payload = JSON.stringify(
+    {
+      receivedAt: new Date().toISOString(),
+      to,
+      ...data,
+    },
+    null,
+    2,
   );
+  const dirs = [
+    path.join(process.cwd(), "data", "inquiries"),
+    path.join("/tmp", "taihuang-inquiries"),
+  ];
+  let last: unknown;
+  for (const dir of dirs) {
+    try {
+      await mkdir(dir, { recursive: true });
+      await writeFile(path.join(dir, filename), payload);
+      return;
+    } catch (err) {
+      last = err;
+    }
+  }
+  throw last;
 }

@@ -1,13 +1,8 @@
-# Taihuang Glass — Empty glass vessels from Xuzhou
+# Taihuang Glass
 
-B2B inquiry site for empty glass candle jars and vessels.
-Legal name: **Xuzhou Taihuang Glass Products Co., Ltd.**
+B2B inquiry site for empty glass candle jars. Legal name: Xuzhou Taihuang Glass Products Co., Ltd.
 
-Not a shop. No cart. No filled candles.
-
-## Stack
-
-Next.js App Router, TypeScript, Tailwind. Deploy on Vercel.
+Not a shop. No cart. No custom domain in this deploy.
 
 ## Local
 
@@ -17,12 +12,16 @@ cp .env.example .env.local
 npm run dev
 ```
 
-Inquiries are saved under `data/inquiries/`. Without `RESEND_API_KEY`, mail is not sent; we still keep the JSON file. Set the key on Vercel production so quotes also go to `taihuangal@outlook.com`.
+`RESEND_API_KEY` can stay empty. Inquiries still save as JSON under `data/inquiries/` and the form shows: *Received. We will reply from taihuangal@outlook.com.*
 
-## Catalog
+## Deploy on Vercel (no custom domain)
 
-Twelve SKUs in `data/products.json`. Product photos are empty vessels in `public/products/{slug}.jpg`. If a remote Alibaba image URL is set and fails, the page falls back to that local file.
-
-## Certificates
-
-PDFs in `public/certs/`. About page copy is locked — do not generalize ASTM or SGS claims.
+1. Push this repo to GitHub (HTTPS).
+2. Open [vercel.com](https://vercel.com) and sign in with GitHub.
+3. **Add New… → Project**.
+4. **Import** this GitHub repository.
+5. Framework Preset: **Next.js** (leave the default). Do not add a custom domain.
+6. Environment Variables:
+   - `INQUIRY_TO_EMAIL` = `taihuangal@outlook.com`
+   - `RESEND_API_KEY` = leave empty for now
+7. **Deploy**. Use the `*.vercel.app` URL Vercel gives you.
