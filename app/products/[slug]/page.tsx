@@ -68,7 +68,7 @@ export default async function ProductPage({
     ...(product.finish ? [["Finish", product.finish]] : []),
     ["Price", "Inquire"],
     ["MOQ", `${site.moq} pcs`],
-    ["Alibaba sold", soldLabel(product.sold)],
+    ["Sold", soldLabel(product.sold)],
   ];
 
   return (
@@ -119,14 +119,6 @@ export default async function ProductPage({
               </div>
             ))}
           </dl>
-          <a
-            href={product.alibabaUrl}
-            target="_blank"
-            rel="noreferrer"
-            className="mt-6 inline-block text-sm text-accent hover:underline"
-          >
-            View this SKU on Alibaba
-          </a>
           <div className="mt-8 flex flex-wrap items-center gap-3">
             <a
               href="#inquiry"
