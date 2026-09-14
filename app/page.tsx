@@ -1,5 +1,6 @@
 import Image from "next/image";
 import Link from "next/link";
+import { PackagingMedia } from "@/components/PackagingMedia";
 import { ProductCard } from "@/components/ProductCard";
 import { products } from "@/lib/products";
 import { site } from "@/lib/site";
@@ -24,8 +25,6 @@ const oem = [
 ];
 
 export default function Home() {
-  const featured = products.slice(0, 6);
-
   return (
     <>
       <section className="relative isolate min-h-[72vh] overflow-hidden">
@@ -46,7 +45,7 @@ export default function Home() {
           </h1>
           <p className="mt-4 max-w-xl text-base text-paper/85 md:text-lg">
             Factory vessels from Xuzhou. Color, logo, lids, and paper boxes.
-            MOQ {site.moq} pcs. Not a candle shop.
+            Price on inquiry. MOQ {site.moq} pcs. Not a candle shop.
           </p>
           <div className="mt-8 flex flex-wrap gap-3">
             <Link
@@ -80,7 +79,7 @@ export default function Home() {
           </Link>
         </div>
         <div className="mt-8 grid gap-6 sm:grid-cols-2 lg:grid-cols-3">
-          {featured.map((p, i) => (
+          {products.map((p, i) => (
             <ProductCard key={p.slug} product={p} priority={i < 3} />
           ))}
         </div>
@@ -89,26 +88,48 @@ export default function Home() {
       <section className="border-y border-line bg-card">
         <div className="mx-auto max-w-6xl px-5 py-16 md:px-8">
           <p className="text-xs uppercase tracking-[0.16em] text-muted">
-            Custom OEM
+            Add-ons
           </p>
-          <h2 className="mt-2 max-w-2xl font-serif text-3xl md:text-4xl">
-            Finish the jar to the brand, then you fill it.
+          <h2 className="mt-2 font-serif text-3xl md:text-4xl">
+            Lids &amp; Packaging
           </h2>
-          <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
-            {oem.map((item) => (
-              <div key={item.title} className="rounded-2xl border border-line p-5">
-                <h3 className="font-serif text-xl">{item.title}</h3>
-                <p className="mt-2 text-sm leading-6 text-muted">{item.body}</p>
-              </div>
-            ))}
+          <p className="mt-3 max-w-2xl text-ink/75">
+            Optional lids and custom boxes with jar orders. Not sold as a
+            standalone shop.
+          </p>
+          <div className="mt-10">
+            <PackagingMedia />
           </div>
           <Link
-            href="/custom"
+            href="/packaging"
             className="mt-8 inline-block text-sm font-medium text-accent hover:underline"
           >
-            OEM options
+            Lid and box options
           </Link>
         </div>
+      </section>
+
+      <section className="mx-auto max-w-6xl px-5 py-16 md:px-8">
+        <p className="text-xs uppercase tracking-[0.16em] text-muted">
+          Custom OEM
+        </p>
+        <h2 className="mt-2 max-w-2xl font-serif text-3xl md:text-4xl">
+          Finish the jar to the brand, then you fill it.
+        </h2>
+        <div className="mt-10 grid gap-6 sm:grid-cols-2 lg:grid-cols-4">
+          {oem.map((item) => (
+            <div key={item.title} className="rounded-2xl border border-line p-5">
+              <h3 className="font-serif text-xl">{item.title}</h3>
+              <p className="mt-2 text-sm leading-6 text-muted">{item.body}</p>
+            </div>
+          ))}
+        </div>
+        <Link
+          href="/custom"
+          className="mt-8 inline-block text-sm font-medium text-accent hover:underline"
+        >
+          OEM options
+        </Link>
       </section>
 
       <section className="mx-auto max-w-6xl px-5 py-16 md:px-8">

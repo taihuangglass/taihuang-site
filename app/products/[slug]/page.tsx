@@ -6,10 +6,12 @@ import { ProductPhoto } from "@/components/ProductPhoto";
 import {
   colorLabel,
   getProduct,
+  imageLookLabel,
   priceLine,
   products,
   relatedProducts,
   sizeLabel,
+  soldLabel,
 } from "@/lib/products";
 import { site } from "@/lib/site";
 import type { Metadata } from "next";
@@ -41,6 +43,7 @@ export default async function ProductPage({
   const product = getProduct(slug);
   if (!product) notFound();
   const related = relatedProducts(product);
+  const look = imageLookLabel(product);
 
   const jsonLd = {
     "@context": "https://schema.org",
@@ -62,8 +65,9 @@ export default async function ProductPage({
     ["Paper box", product.withBox ? "Yes" : "No"],
     ...(product.thickBottom ? [["Base", "Thick bottom"]] : []),
     ...(product.finish ? [["Finish", product.finish]] : []),
+    ["Price", "Inquire"],
     ["MOQ", `${site.moq} pcs`],
-    ["From", `$${product.priceFrom.toFixed(2)} USD`],
+    ["Alibaba sold", soldLabel(product.sold)],
   ];
 
   return (
@@ -81,23 +85,30 @@ export default async function ProductPage({
       </p>
       <div className="mt-6 grid gap-10 lg:grid-cols-2">
         <div className="relative aspect-square overflow-hidden rounded-2xl border border-line bg-card">
-          <ProductPhoto
-            slug={product.slug}
-            src={product.image}
-            alt={product.title}
-            fill
-            priority
-            sizes="(min-width: 1024px) 50vw, 100vw"
-            className="object-cover"
-          />
+          <div className="absolute inset-6">
+            <ProductPhoto
+              slug={product.slug}
+              src={product.image}
+              alt={product.title}
+              fill
+              priority
+              sizes="(min-width: 1024px) 50vw, 100vw"
+              className="object-contain"
+            />
+          </div>
+          {look ? (
+            <span className="absolute left-4 top-4 rounded-full bg-paper/90 px-2.5 py-1 text-[11px] uppercase tracking-[0.12em] text-muted">
+              {look}
+            </span>
+          ) : null}
         </div>
         <div>
           <h1 className="font-serif text-4xl leading-tight">{product.title}</h1>
           <p className="mt-3 text-lg text-ink/80">{priceLine(product)}</p>
           <p className="mt-4 max-w-lg text-ink/75">{product.summary}</p>
           <p className="mt-3 text-sm text-muted">
-            Empty glass vessel. You fill the candle. Indicative FOB starting
-            price, non-binding. Quote in USD.
+            Empty glass vessel. You fill the candle. Quotes on request. No
+            published USD price.
           </p>
           <dl className="mt-8 divide-y divide-line border-y border-line">
             {specs.map(([k, v]) => (
@@ -108,11 +119,21 @@ export default async function ProductPage({
             ))}
           </dl>
           <a
-            href="#inquiry"
-            className="mt-8 inline-block rounded-full bg-accent px-5 py-2.5 text-sm text-paper hover:bg-accent/90"
+            href={product.alibabaUrl}
+            target="_blank"
+            rel="noreferrer"
+            className="mt-6 inline-block text-sm text-accent hover:underline"
           >
-            Request a quote
+            View this SKU on Alibaba
           </a>
+          <div>
+            <a
+              href="#inquiry"
+              className="mt-8 inline-block rounded-full bg-accent px-5 py-2.5 text-sm text-paper hover:bg-accent/90"
+            >
+              Request a quote
+            </a>
+          </div>
         </div>
       </div>
 

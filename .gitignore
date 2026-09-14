@@ -43,3 +43,6 @@ next-env.d.ts
 
 # inquiry payloads
 /data/inquiries/*.json
+
+# original uncompressed lid video — do not commit
+/public/videos/lids-original.mp4

@@ -21,6 +21,8 @@ const schema = z.object({
   logo: z.string().trim().max(400).optional().or(z.literal("")),
   lidType: z.enum(["", "bamboo", "wood", "metal"]).optional(),
   paperBox: z.enum(["", "yes", "no"]).optional(),
+  includeLids: z.enum(["", "yes"]).optional(),
+  includeCustomBox: z.enum(["", "yes"]).optional(),
   website: z.string().max(0).optional().or(z.literal("")),
 });
 
@@ -56,6 +58,8 @@ export async function submitInquiry(
     logo: str(formData, "logo"),
     lidType: str(formData, "lidType"),
     paperBox: str(formData, "paperBox"),
+    includeLids: str(formData, "includeLids"),
+    includeCustomBox: str(formData, "includeCustomBox"),
     website: str(formData, "website"),
   });
 
@@ -89,6 +93,8 @@ export async function submitInquiry(
     data.logo ? `Logo: ${data.logo}` : "",
     data.lidType ? `Lid: ${data.lidType}` : "",
     data.paperBox ? `Paper box: ${data.paperBox}` : "",
+    data.includeLids === "yes" ? "Include lids: yes" : "",
+    data.includeCustomBox === "yes" ? "Include custom box: yes" : "",
     "",
     data.notes || "",
   ].filter((line, i, arr) => line !== "" || arr[i - 1] !== "");

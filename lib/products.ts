@@ -1,6 +1,5 @@
 import catalog from "@/data/products.json";
 import type { Product } from "@/types/product";
-import { site } from "@/lib/site";
 
 export const products = catalog as Product[];
 
@@ -23,15 +22,12 @@ export function relatedProducts(product: Product, limit = 3): Product[] {
     .slice(0, limit);
 }
 
-export function formatPrice(n: number): string {
-  return `$${n.toFixed(2)}`;
-}
-
 export function priceLine(product: Product): string {
-  return `From ${formatPrice(product.priceFrom)} · MOQ ${site.moq} pcs`;
+  return `Inquire · MOQ ${product.moq} pcs`;
 }
 
 export function sizeLabel(sizes: number[]): string {
+  if (sizes.length === 0) return "Capacity on request";
   return sizes.map((s) => `${s} oz`).join(" / ");
 }
 
@@ -40,6 +36,14 @@ export function colorLabel(color: string): string {
     .split("-")
     .map((w) => w.charAt(0).toUpperCase() + w.slice(1))
     .join(" ");
+}
+
+export function soldLabel(n: number): string {
+  return n.toLocaleString("en-US");
+}
+
+export function imageLookLabel(product: Product): string | null {
+  return product.imageLook === "filled" ? "Filled look" : null;
 }
 
 export const allSizes = Array.from(

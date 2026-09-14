@@ -9,9 +9,8 @@ export const site = {
   address:
     "Zhangji Town, Tongshan District, Xuzhou City, Jiangsu Province, China",
   moq: 240,
-  currency: "USD",
   description:
-    "Empty glass candle jars and vessels for candle brands, private label, and wholesale. Factory in Xuzhou, Jiangsu. OEM color, logo, lids, and paper boxes. MOQ 240 pcs.",
+    "Empty glass candle jars and vessels for candle brands, private label, and wholesale. Factory in Xuzhou, Jiangsu. OEM color, logo, lids, and paper boxes. Price on inquiry. MOQ 240 pcs.",
   get url() {
     return process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
   },
@@ -20,6 +19,7 @@ export const site = {
 export const nav = [
   { href: "/", label: "Home" },
   { href: "/products", label: "Products" },
+  { href: "/packaging", label: "Packaging" },
   { href: "/custom", label: "Custom OEM" },
   { href: "/about", label: "About" },
   { href: "/contact", label: "Contact" },

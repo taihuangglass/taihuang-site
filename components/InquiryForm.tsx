@@ -136,6 +136,17 @@ export function InquiryForm({
         </div>
       ) : null}
 
+      <div className="flex flex-col gap-2 text-sm">
+        <label className="flex items-center gap-2 text-ink/80">
+          <input type="checkbox" name="includeLids" value="yes" />
+          Include lids
+        </label>
+        <label className="flex items-center gap-2 text-ink/80">
+          <input type="checkbox" name="includeCustomBox" value="yes" />
+          Include custom box
+        </label>
+      </div>
+
       <label className="block text-sm">
         <span className="text-ink/80">Notes</span>
         <textarea

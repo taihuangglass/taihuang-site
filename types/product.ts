@@ -10,6 +10,7 @@ export type ProductColor =
   | "blue"
   | "gray"
   | "brown";
+export type ImageLook = "empty" | "filled";
 
 export type Product = {
   slug: string
@@ -22,8 +23,9 @@ export type Product = {
   withBox: boolean
   thickBottom?: boolean
   moq: 240
-  priceFrom: number
+  sold: number
   image: string
+  imageLook: ImageLook
   alibabaUrl: string
   summary: string
 }

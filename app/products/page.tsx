@@ -7,7 +7,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Empty glass candle jars",
   description:
-    "Twelve empty glass candle jars and vessels. Filter by shape, color, size, and lid. MOQ 240 pcs.",
+    "Twelve empty glass candle jars and vessels. Filter by shape, color, size, and lid. Price on inquiry. MOQ 240 pcs.",
 };
 
 export default async function ProductsPage({
@@ -25,8 +25,7 @@ export default async function ProductsPage({
       <p className="text-xs uppercase tracking-[0.16em] text-muted">Catalog</p>
       <h1 className="mt-2 font-serif text-4xl">Empty glass candle jars</h1>
       <p className="mt-3 max-w-2xl text-ink/75">
-        Vessels only. You fill the candle. Every SKU is MOQ 240 pcs, quoted in
-        USD.
+        Vessels only. You fill the candle. Every SKU is Inquire, MOQ 240 pcs.
       </p>
       <div className="mt-8">
         <Suspense>

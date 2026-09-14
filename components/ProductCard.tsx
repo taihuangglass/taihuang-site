@@ -1,6 +1,11 @@
 import Link from "next/link";
 import { ProductPhoto } from "@/components/ProductPhoto";
-import { colorLabel, priceLine, sizeLabel } from "@/lib/products";
+import {
+  colorLabel,
+  imageLookLabel,
+  priceLine,
+  sizeLabel,
+} from "@/lib/products";
 import type { Product } from "@/types/product";
 
 export function ProductCard({
@@ -10,25 +15,38 @@ export function ProductCard({
   product: Product
   priority?: boolean
 }) {
+  const look = imageLookLabel(product);
+
   return (
     <article className="group flex flex-col overflow-hidden rounded-2xl border border-line bg-card">
-      <Link href={`/products/${product.slug}`} className="relative aspect-square bg-paper">
-        <ProductPhoto
-          slug={product.slug}
-          src={product.image}
-          alt={product.title}
-          fill
-          priority={priority}
-          sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
-          className="object-cover transition duration-500 group-hover:scale-[1.03]"
-        />
+      <Link
+        href={`/products/${product.slug}`}
+        className="relative aspect-square bg-paper"
+      >
+        <span className="absolute inset-3 block">
+          <ProductPhoto
+            slug={product.slug}
+            src={product.image}
+            alt={product.title}
+            fill
+            priority={priority}
+            sizes="(min-width: 1024px) 33vw, (min-width: 640px) 50vw, 100vw"
+            className="object-contain"
+          />
+        </span>
+        {look ? (
+          <span className="absolute left-3 top-3 rounded-full bg-paper/90 px-2.5 py-1 text-[11px] uppercase tracking-[0.12em] text-muted">
+            {look}
+          </span>
+        ) : null}
       </Link>
       <div className="flex flex-1 flex-col gap-2 p-4">
         <h2 className="font-serif text-xl leading-snug text-ink">
           <Link href={`/products/${product.slug}`}>{product.title}</Link>
         </h2>
         <p className="text-sm text-muted">
-          {product.colors.map(colorLabel).join(" · ")} · {sizeLabel(product.sizesOz)}
+          {product.colors.map(colorLabel).join(" · ")} ·{" "}
+          {sizeLabel(product.sizesOz)}
         </p>
         <p className="text-sm text-ink/80">{priceLine(product)}</p>
         <Link
