@@ -3,8 +3,10 @@ export const site = {
   tagline: "Empty glass vessels from Xuzhou",
   legalName: "Xuzhou Taihuang Glass Products Co., Ltd.",
   email: "taihuangal@outlook.com",
-  whatsapp: "+86 183 05200666",
+  whatsapp: "+86 183 052 00666",
   whatsappDigits: "8618305200666",
+  whatsappHref:
+    "https://wa.me/8618305200666?text=Hello%2C%20I%20want%20a%20quote%20for%20glass%20candle%20jars.%20MOQ%20240.",
   wechat: "18305200666",
   address:
     "Zhangji Town, Tongshan District, Xuzhou City, Jiangsu Province, China",

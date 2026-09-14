@@ -3,6 +3,7 @@ import { notFound } from "next/navigation";
 import { InquiryForm } from "@/components/InquiryForm";
 import { ProductCard } from "@/components/ProductCard";
 import { ProductPhoto } from "@/components/ProductPhoto";
+import { WhatsAppLink } from "@/components/WhatsAppLink";
 import {
   colorLabel,
   getProduct,
@@ -126,13 +127,14 @@ export default async function ProductPage({
           >
             View this SKU on Alibaba
           </a>
-          <div>
+          <div className="mt-8 flex flex-wrap items-center gap-3">
             <a
               href="#inquiry"
-              className="mt-8 inline-block rounded-full bg-accent px-5 py-2.5 text-sm text-paper hover:bg-accent/90"
+              className="inline-block rounded-full bg-accent px-5 py-2.5 text-sm text-paper hover:bg-accent/90"
             >
               Request a quote
             </a>
+            <WhatsAppLink className="inline-block rounded-full border border-line px-5 py-2.5 text-sm hover:bg-card" />
           </div>
         </div>
       </div>

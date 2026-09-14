@@ -1,4 +1,5 @@
 import Link from "next/link";
+import { WhatsAppLink } from "@/components/WhatsAppLink";
 import { nav, site } from "@/lib/site";
 
 export function Header() {
@@ -24,13 +25,16 @@ export function Header() {
             </Link>
           ))}
         </nav>
-        <Link
-          href="/contact"
-          className="shrink-0 rounded-full bg-accent px-3 py-2 text-sm text-paper hover:bg-accent/90 sm:px-4"
-        >
-          <span className="sm:hidden">Quote</span>
-          <span className="hidden sm:inline">Request a quote</span>
-        </Link>
+        <div className="flex shrink-0 items-center gap-2">
+          <WhatsAppLink className="rounded-full border border-line px-3 py-2 text-sm text-ink hover:bg-card sm:px-4" />
+          <Link
+            href="/contact"
+            className="rounded-full bg-accent px-3 py-2 text-sm text-paper hover:bg-accent/90 sm:px-4"
+          >
+            <span className="sm:hidden">Quote</span>
+            <span className="hidden sm:inline">Request a quote</span>
+          </Link>
+        </div>
       </div>
       <nav className="flex gap-4 overflow-x-auto border-t border-line/60 px-5 py-2 text-sm text-ink/80 md:hidden">
         {nav.map((item) => (

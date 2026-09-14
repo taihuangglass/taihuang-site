@@ -26,12 +26,13 @@ export function Footer() {
             <li>
               <a
                 className="hover:underline"
-                href={`https://wa.me/${site.whatsappDigits}`}
+                href={site.whatsappHref}
                 target="_blank"
                 rel="noreferrer"
               >
-                WhatsApp {site.whatsapp}
+                WhatsApp
               </a>
+              <span className="ml-2 text-paper/70">{site.whatsapp}</span>
             </li>
             <li>WeChat {site.wechat}</li>
           </ul>

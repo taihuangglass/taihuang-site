@@ -1,5 +1,6 @@
 import type { Metadata } from "next";
 import { InquiryForm } from "@/components/InquiryForm";
+import { WhatsAppLink } from "@/components/WhatsAppLink";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -39,7 +40,7 @@ export default function ContactPage() {
             <dd className="mt-1">
               <a
                 className="text-accent hover:underline"
-                href={`https://wa.me/${site.whatsappDigits}`}
+                href={site.whatsappHref}
                 target="_blank"
                 rel="noreferrer"
               >
@@ -52,6 +53,7 @@ export default function ContactPage() {
             <dd className="mt-1">{site.wechat}</dd>
           </div>
         </dl>
+        <WhatsAppLink className="mt-8 inline-block rounded-full border border-line px-5 py-2.5 text-sm hover:bg-card" />
       </div>
       <div className="rounded-2xl border border-line bg-card p-6">
         <InquiryForm variant="contact" defaultSku="General inquiry" />

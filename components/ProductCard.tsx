@@ -1,5 +1,6 @@
 import Link from "next/link";
 import { ProductPhoto } from "@/components/ProductPhoto";
+import { WhatsAppLink } from "@/components/WhatsAppLink";
 import {
   colorLabel,
   imageLookLabel,
@@ -49,12 +50,15 @@ export function ProductCard({
           {sizeLabel(product.sizesOz)}
         </p>
         <p className="text-sm text-ink/80">{priceLine(product)}</p>
-        <Link
-          href={`/products/${product.slug}#inquiry`}
-          className="mt-auto pt-2 text-sm font-medium text-accent hover:underline"
-        >
-          Request a quote
-        </Link>
+        <div className="mt-auto flex flex-wrap items-center gap-x-4 gap-y-1 pt-2">
+          <Link
+            href={`/products/${product.slug}#inquiry`}
+            className="text-sm font-medium text-accent hover:underline"
+          >
+            Request a quote
+          </Link>
+          <WhatsAppLink className="text-sm font-medium text-ink/80 hover:text-accent hover:underline" />
+        </div>
       </div>
     </article>
   );
