@@ -6,6 +6,7 @@ export const metadata: Metadata = {
   title: "Custom OEM",
   description:
     "OEM empty glass candle jars: color, bottle logo, bamboo wood or metal lids, and paper boxes. MOQ 240 pcs.",
+  alternates: { canonical: "/custom" },
 };
 
 const blocks = [

@@ -7,6 +7,7 @@ export const metadata: Metadata = {
   title: "Lids & Packaging",
   description:
     "Optional bamboo, wood, and metal lids plus custom folding gift boxes with empty glass candle jar orders. MOQ 240 pcs.",
+  alternates: { canonical: "/packaging" },
 };
 
 export default function PackagingPage() {

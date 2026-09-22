@@ -28,6 +28,10 @@ export const metadata: Metadata = {
     description: site.description,
     siteName: site.brand,
   },
+  robots: {
+    index: true,
+    follow: true,
+  },
 };
 
 const orgJsonLd = {
@@ -35,6 +39,7 @@ const orgJsonLd = {
   "@type": "Organization",
   name: site.legalName,
   alternateName: site.brand,
+  url: site.url,
   description: site.description,
   email: site.email,
   address: {

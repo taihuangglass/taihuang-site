@@ -5,6 +5,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "About the factory",
   description: `${site.legalName} in Xuzhou, Jiangsu. Empty glass candle vessels. ASTM C149 sample test and supplier coating report.`,
+  alternates: { canonical: "/about" },
 };
 
 const astmHref =

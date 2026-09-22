@@ -1,9 +1,14 @@
 import Image from "next/image";
 import Link from "next/link";
+import type { Metadata } from "next";
 import { PackagingMedia } from "@/components/PackagingMedia";
 import { ProductCard } from "@/components/ProductCard";
 import { products } from "@/lib/products";
 import { site } from "@/lib/site";
+
+export const metadata: Metadata = {
+  alternates: { canonical: "/" },
+};
 
 const oem = [
   {

@@ -1,3 +1,20 @@
+export const CANONICAL_SITE_URL = "https://www.taihuangglass.com";
+
+function resolveSiteUrl(): string {
+  const raw = process.env.NEXT_PUBLIC_SITE_URL?.trim().replace(/\/$/, "");
+  const unusable =
+    !raw ||
+    raw.includes("localhost") ||
+    raw.includes("127.0.0.1") ||
+    raw.includes("vercel.app");
+
+  if (process.env.NODE_ENV === "production" || process.env.VERCEL) {
+    return unusable ? CANONICAL_SITE_URL : raw;
+  }
+
+  return raw && !unusable ? raw : "http://localhost:3000";
+}
+
 export const site = {
   brand: "Taihuang Glass",
   tagline: "Empty glass vessels from Xuzhou",
@@ -14,7 +31,7 @@ export const site = {
   description:
     "Empty glass candle jars and vessels for candle brands, private label, and wholesale. Factory in Xuzhou, Jiangsu. OEM color, logo, lids, and paper boxes. Price on inquiry. MOQ 240 pcs.",
   get url() {
-    return process.env.NEXT_PUBLIC_SITE_URL ?? "http://localhost:3000";
+    return resolveSiteUrl();
   },
 } as const;
 

@@ -6,6 +6,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Contact",
   description: `Request a quote from ${site.legalName}. Email, WhatsApp, and WeChat.`,
+  alternates: { canonical: "/contact" },
 };
 
 export default function ContactPage() {
