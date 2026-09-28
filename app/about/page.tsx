@@ -1,5 +1,7 @@
 import type { Metadata } from "next";
+import Link from "next/link";
 import { CertCard } from "@/components/CertCard";
+import { astmReport, coatingReport } from "@/lib/certs";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
@@ -7,13 +9,6 @@ export const metadata: Metadata = {
   description: `${site.legalName} in Xuzhou, Jiangsu. Empty glass candle vessels. ASTM C149 sample test and supplier coating report.`,
   alternates: { canonical: "/about" },
 };
-
-const astmHref =
-  "/certs/" +
-  encodeURIComponent(
-    "ASTM-C149 Thermal Shock Resistance Test for Thai Royal Glass Candle Jars.pdf",
-  );
-const sgsHref = "/certs/" + encodeURIComponent("sgs检测英文版.pdf");
 
 export default function AboutPage() {
   return (
@@ -36,9 +31,9 @@ export default function AboutPage() {
 
       <div className="mt-12 grid gap-6 lg:grid-cols-2">
         <CertCard
-          title="Thermal shock — ASTM C149"
-          href={astmHref}
-          linkLabel="Download ASTM C149 test report"
+          title={astmReport.title}
+          href={astmReport.href}
+          linkLabel={astmReport.linkLabel}
         >
           <p>Beide report no. B-S02829E3695 (28 Apr 2026).</p>
           <p>
@@ -52,12 +47,19 @@ export default function AboutPage() {
             Method: ASTM C149-14(2020). Result: no obvious mechanical damage
             after the test.
           </p>
+          <p>
+            Buyers looking for a heat-resistant jar can read{" "}
+            <Link href="/guides/heat-resistant-glass-candle-jars" className="text-accent hover:underline">
+              what this test does and does not cover
+            </Link>
+            .
+          </p>
         </CertCard>
 
         <CertCard
-          title="Colored coating — supplier RoHS report"
-          href={sgsHref}
-          linkLabel="Download supplier test report"
+          title={coatingReport.title}
+          href={coatingReport.href}
+          linkLabel={coatingReport.linkLabel}
         >
           <p>SGS report SHAEC24006831401 (12 Apr 2024).</p>
           <p>Sample: water-based glass paint LH-8388H.</p>

@@ -145,6 +145,23 @@ export default function Home() {
           private label, and wholesale. Inspection reports on request — see About
           for the two reports we publish.
         </p>
+        <p className="mt-3 max-w-2xl text-base leading-7 text-ink/80">
+          Searching for a jar that can take hot wax? Start with{" "}
+          <Link
+            href="/guides/heat-resistant-glass-candle-jars"
+            className="text-accent hover:underline"
+          >
+            heat-resistant glass candle jars
+          </Link>
+          . Capacities are listed in{" "}
+          <Link
+            href="/guides/glass-candle-jar-sizes"
+            className="text-accent hover:underline"
+          >
+            ounce sizes
+          </Link>
+          .
+        </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <Link
             href="/about"

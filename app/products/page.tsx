@@ -1,4 +1,5 @@
 import { Suspense } from "react";
+import Link from "next/link";
 import { ProductCard } from "@/components/ProductCard";
 import { ProductFilters } from "@/components/ProductFilters";
 import { filterProducts, hasActiveFilters, parseFilters } from "@/lib/filters";
@@ -27,6 +28,18 @@ export default async function ProductsPage({
       <h1 className="mt-2 font-serif text-4xl">Empty glass candle jars</h1>
       <p className="mt-3 max-w-2xl text-ink/75">
         Vessels only. You fill the candle. Every SKU is Inquire, MOQ 240 pcs.
+        See{" "}
+        <Link href="/guides/glass-candle-jar-sizes" className="text-accent hover:underline">
+          sizes in ounces
+        </Link>{" "}
+        or{" "}
+        <Link
+          href="/guides/heat-resistant-glass-candle-jars"
+          className="text-accent hover:underline"
+        >
+          heat resistance
+        </Link>
+        .
       </p>
       <div className="mt-8">
         <Suspense>

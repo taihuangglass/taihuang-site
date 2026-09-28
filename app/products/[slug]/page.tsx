@@ -4,11 +4,13 @@ import { InquiryForm } from "@/components/InquiryForm";
 import { ProductCard } from "@/components/ProductCard";
 import { ProductPhoto } from "@/components/ProductPhoto";
 import { WhatsAppLink } from "@/components/WhatsAppLink";
+import { heroNotes } from "@/lib/productNotes";
 import {
   colorLabel,
   getProduct,
   imageLookLabel,
   priceLine,
+  productDescription,
   products,
   relatedProducts,
   sizeLabel,
@@ -31,7 +33,7 @@ export async function generateMetadata({
   if (!product) return {};
   return {
     title: product.title,
-    description: product.summary,
+    description: productDescription(product),
     alternates: { canonical: `/products/${slug}` },
   };
 }
@@ -46,12 +48,13 @@ export default async function ProductPage({
   if (!product) notFound();
   const related = relatedProducts(product);
   const look = imageLookLabel(product);
+  const notes = heroNotes[product.slug];
 
   const jsonLd = {
     "@context": "https://schema.org",
     "@type": "Product",
     name: product.title,
-    description: product.summary,
+    description: productDescription(product),
     image: product.image.startsWith("http")
       ? product.image
       : `${site.url}${product.image}`,
@@ -131,6 +134,41 @@ export default async function ProductPage({
           </div>
         </div>
       </div>
+
+      <section className="mt-12 max-w-2xl">
+        <h2 className="font-serif text-2xl">Hot wax</h2>
+        <p className="mt-3 text-sm leading-6 text-ink/75">
+          Pouring hot wax is a thermal shock question. The ASTM C149 report
+          covers two commissioned sample sizes, not this SKU by default.{" "}
+          <Link
+            href="/guides/heat-resistant-glass-candle-jars"
+            className="text-accent hover:underline"
+          >
+            Read what the test covers
+          </Link>
+          .
+        </p>
+      </section>
+
+      {notes ? (
+        <section className="mt-10 max-w-2xl">
+          <h2 className="font-serif text-2xl">About this vessel</h2>
+          <div className="mt-3 space-y-3 text-sm leading-6 text-ink/75">
+            {notes.paragraphs.map((paragraph) => (
+              <p key={paragraph}>{paragraph}</p>
+            ))}
+          </div>
+          <ul className="mt-4 space-y-2 text-sm">
+            {notes.also.map((item) => (
+              <li key={item.href}>
+                <Link href={item.href} className="text-accent hover:underline">
+                  {item.label}
+                </Link>
+              </li>
+            ))}
+          </ul>
+        </section>
+      ) : null}
 
       <section id="inquiry" className="mt-16 scroll-mt-24">
         <h2 className="font-serif text-3xl">Request a quote</h2>

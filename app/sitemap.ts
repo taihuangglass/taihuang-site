@@ -1,4 +1,5 @@
 import type { MetadataRoute } from "next";
+import { guidePath, guides } from "@/lib/guides";
 import { products } from "@/lib/products";
 import { site } from "@/lib/site";
 
@@ -11,6 +12,8 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/custom",
     "/about",
     "/contact",
+    "/guides",
+    ...guides.map((guide) => guidePath(guide.slug)),
   ].map(
     (path) => ({
       url: `${site.url}${path}`,

@@ -31,6 +31,12 @@ export function sizeLabel(sizes: number[]): string {
   return sizes.map((s) => `${s} oz`).join(" / ");
 }
 
+export function productDescription(product: Product): string {
+  const lid = product.withLid ? "Lid on this listing." : "Jar without a lid on this listing.";
+  const box = product.withBox ? " Paper box included." : "";
+  return `Empty ${product.title}. ${sizeLabel(product.sizesOz)}. ${lid}${box} MOQ ${product.moq} pcs. Price on inquiry.`;
+}
+
 export function colorLabel(color: string): string {
   return color
     .split("-")
