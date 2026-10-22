@@ -1,0 +1,964 @@
+[
+ {
+  "Series": "Clear Glass Series",
+  "Item": "5232 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "52/49/32",
+  "Jar Weight (g)": 60,
+  "Capacity (ml) water-measured": 36,
+  "Qty per Carton (pcs)": 240,
+  "Gross Weight (kg)": 14.4,
+  "Carton Size (cm)": "31*25.5*25.5"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "5060B Water Cup",
+  "Size (mm) Top / Bottom / Height": "50/35/60",
+  "Jar Weight (g)": 60,
+  "Capacity (ml) water-measured": 55,
+  "Qty per Carton (pcs)": 192,
+  "Gross Weight (kg)": 12,
+  "Carton Size (cm)": "37.4*28.3*25.5"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "102 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "45/39/53",
+  "Jar Weight (g)": 55,
+  "Capacity (ml) water-measured": 48,
+  "Qty per Carton (pcs)": 240,
+  "Gross Weight (kg)": 14.4,
+  "Carton Size (cm)": "36*27.2*28.5"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "103 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "52/45/62",
+  "Jar Weight (g)": 80,
+  "Capacity (ml) water-measured": 82,
+  "Qty per Carton (pcs)": 160,
+  "Gross Weight (kg)": 13.5,
+  "Carton Size (cm)": "40.8*25.8*26.2"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "104 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "56/47/66",
+  "Jar Weight (g)": 90,
+  "Capacity (ml) water-measured": 95,
+  "Qty per Carton (pcs)": 160,
+  "Gross Weight (kg)": 15,
+  "Carton Size (cm)": "44*28.5*27.8"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "Zhonghua Cup Candle Jar",
+  "Size (mm) Top / Bottom / Height": "62/48/46",
+  "Jar Weight (g)": 70,
+  "Capacity (ml) water-measured": 60,
+  "Qty per Carton (pcs)": 210,
+  "Gross Weight (kg)": 15.9,
+  "Carton Size (cm)": "41*30.5*29"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "5451 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "54/50/52",
+  "Jar Weight (g)": 75,
+  "Capacity (ml) water-measured": 50,
+  "Qty per Carton (pcs)": 160,
+  "Gross Weight (kg)": 13.5,
+  "Carton Size (cm)": "44*27.8*21.8"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "5060A Thick-Bottom Cup",
+  "Size (mm) Top / Bottom / Height": "50/35/60",
+  "Jar Weight (g)": 75,
+  "Capacity (ml) water-measured": 50,
+  "Qty per Carton (pcs)": 192,
+  "Gross Weight (kg)": 15.2,
+  "Carton Size (cm)": "37.4*28.3*25.5"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "5062 Square Cup",
+  "Size (mm) Top / Bottom / Height": "50/44/62",
+  "Jar Weight (g)": 115,
+  "Capacity (ml) water-measured": 67,
+  "Qty per Carton (pcs)": 144,
+  "Gross Weight (kg)": 18,
+  "Carton Size (cm)": "45.5*34.5*19.5"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "4570A Water Cup",
+  "Size (mm) Top / Bottom / Height": "45/35/70",
+  "Jar Weight (g)": 75,
+  "Capacity (ml) water-measured": 45,
+  "Qty per Carton (pcs)": 144,
+  "Gross Weight (kg)": 11.6,
+  "Carton Size (cm)": "35.6*27.6*23.5"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "5188 Water Cup",
+  "Size (mm) Top / Bottom / Height": "51/35/88",
+  "Jar Weight (g)": 105,
+  "Capacity (ml) water-measured": 72,
+  "Qty per Carton (pcs)": 144,
+  "Gross Weight (kg)": 16.3,
+  "Carton Size (cm)": "37.5*29.5*28.5"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "6565 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "65/45/65",
+  "Jar Weight (g)": 100,
+  "Capacity (ml) water-measured": 105,
+  "Qty per Carton (pcs)": 144,
+  "Gross Weight (kg)": 15,
+  "Carton Size (cm)": "46.5*35.1*20.6"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "7575 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "75/56/76",
+  "Jar Weight (g)": 140,
+  "Capacity (ml) water-measured": 185,
+  "Qty per Carton (pcs)": 90,
+  "Gross Weight (kg)": 13.6,
+  "Carton Size (cm)": "41.5*34.5*24"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "2006 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "61/57/74",
+  "Jar Weight (g)": 110,
+  "Capacity (ml) water-measured": 140,
+  "Qty per Carton (pcs)": 144,
+  "Gross Weight (kg)": 18,
+  "Carton Size (cm)": "50*37*23.3"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "7550 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "75/70/50",
+  "Jar Weight (g)": 140,
+  "Capacity (ml) water-measured": 140,
+  "Qty per Carton (pcs)": 96,
+  "Gross Weight (kg)": 14.8,
+  "Carton Size (cm)": "45*30*22"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "7063 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "70/67/63",
+  "Jar Weight (g)": 140,
+  "Capacity (ml) water-measured": 155,
+  "Qty per Carton (pcs)": 96,
+  "Gross Weight (kg)": 14,
+  "Carton Size (cm)": "42.7*28.7*27"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "7075 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "70/65/75",
+  "Jar Weight (g)": 170,
+  "Capacity (ml) water-measured": 195,
+  "Qty per Carton (pcs)": 90,
+  "Gross Weight (kg)": 17,
+  "Carton Size (cm)": "43*36.5*25.5"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "9507 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "70/65/80",
+  "Jar Weight (g)": 170,
+  "Capacity (ml) water-measured": 210,
+  "Qty per Carton (pcs)": 90,
+  "Gross Weight (kg)": 16,
+  "Carton Size (cm)": "42*35.5*25.2"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "9508 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "73/67/80",
+  "Jar Weight (g)": 180,
+  "Capacity (ml) water-measured": 220,
+  "Qty per Carton (pcs)": 90,
+  "Gross Weight (kg)": 17,
+  "Carton Size (cm)": "43*36.5*25.2"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "508 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "70/65/84",
+  "Jar Weight (g)": 180,
+  "Capacity (ml) water-measured": 220,
+  "Qty per Carton (pcs)": 90,
+  "Gross Weight (kg)": 16.8,
+  "Carton Size (cm)": "42*35.5*26.5"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "508 Thick-Bottom Cup",
+  "Size (mm) Top / Bottom / Height": "69/64/84",
+  "Jar Weight (g)": 220,
+  "Capacity (ml) water-measured": 200,
+  "Qty per Carton (pcs)": 72,
+  "Gross Weight (kg)": 15,
+  "Carton Size (cm)": "43.6*29.4*26.7"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "9508-2 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "80/75/73",
+  "Jar Weight (g)": 220,
+  "Capacity (ml) water-measured": 220,
+  "Qty per Carton (pcs)": 72,
+  "Gross Weight (kg)": 17,
+  "Carton Size (cm)": "35*26.5*21"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "1904 Water Cup",
+  "Size (mm) Top / Bottom / Height": "40/34/104",
+  "Jar Weight (g)": 105,
+  "Capacity (ml) water-measured": 65,
+  "Qty per Carton (pcs)": 144,
+  "Gross Weight (kg)": 15.5,
+  "Carton Size (cm)": "39*32.8*22.6"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "6560 Thick-Wall Cup",
+  "Size (mm) Top / Bottom / Height": "65/58/60",
+  "Jar Weight (g)": 200,
+  "Capacity (ml) water-measured": 85,
+  "Qty per Carton (pcs)": 90,
+  "Gross Weight (kg)": 18.7,
+  "Carton Size (cm)": "39*33*19.5"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "7588 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "74/69/88 (base 1.5cm)",
+  "Jar Weight (g)": 250,
+  "Capacity (ml) water-measured": 250,
+  "Qty per Carton (pcs)": 72,
+  "Gross Weight (kg)": 19.5,
+  "Carton Size (cm)": "39.5*31.8*50"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "7492 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "74/69/92",
+  "Jar Weight (g)": 225,
+  "Capacity (ml) water-measured": 250,
+  "Qty per Carton (pcs)": 72,
+  "Gross Weight (kg)": 17.2,
+  "Carton Size (cm)": "46*30*29"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "8080 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "79/74/80",
+  "Jar Weight (g)": 230,
+  "Capacity (ml) water-measured": 250,
+  "Qty per Carton (pcs)": 72,
+  "Gross Weight (kg)": 17,
+  "Carton Size (cm)": "47.5*32*25.5"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "8090 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "81/76/91",
+  "Jar Weight (g)": 250,
+  "Capacity (ml) water-measured": 315,
+  "Qty per Carton (pcs)": 72,
+  "Gross Weight (kg)": 18.5,
+  "Carton Size (cm)": "48.5*32.5*28.3"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "8090 Thick-Bottom Cup",
+  "Size (mm) Top / Bottom / Height": "81/76/91",
+  "Jar Weight (g)": 330,
+  "Capacity (ml) water-measured": 300,
+  "Qty per Carton (pcs)": 24,
+  "Gross Weight (kg)": 8.1,
+  "Carton Size (cm)": "33*25*19"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "8093 Thick-Bottom Cup",
+  "Size (mm) Top / Bottom / Height": "79/73/93 (base 1.5cm)",
+  "Jar Weight (g)": 325,
+  "Capacity (ml) water-measured": 260,
+  "Qty per Carton (pcs)": 48,
+  "Gross Weight (kg)": 16.6,
+  "Carton Size (cm)": "48.5*32.5*19.2"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "8093 Extra-Thick-Bottom Cup",
+  "Size (mm) Top / Bottom / Height": "79/73/93 (base thickness 2cm)",
+  "Jar Weight (g)": 350,
+  "Capacity (ml) water-measured": 250,
+  "Qty per Carton (pcs)": 48,
+  "Gross Weight (kg)": 18,
+  "Carton Size (cm)": "48.5*32.5*19.2"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "80100 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "80/75/100",
+  "Jar Weight (g)": 290,
+  "Capacity (ml) water-measured": 320,
+  "Qty per Carton (pcs)": 48,
+  "Gross Weight (kg)": 14.2,
+  "Carton Size (cm)": "48.5*32.5*21.5"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "80105 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "80/75/105",
+  "Jar Weight (g)": 300,
+  "Capacity (ml) water-measured": 350,
+  "Qty per Carton (pcs)": 48,
+  "Gross Weight (kg)": 16,
+  "Carton Size (cm)": "48.5*32.5*22.5"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "80150 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "80/72/150",
+  "Jar Weight (g)": 500,
+  "Capacity (ml) water-measured": 450,
+  "Qty per Carton (pcs)": 36,
+  "Gross Weight (kg)": 19,
+  "Carton Size (cm)": "49.5*25*31.5"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "8698 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "86/80/98 (wall thickness 4mm)",
+  "Jar Weight (g)": 380,
+  "Capacity (ml) water-measured": 370,
+  "Qty per Carton (pcs)": 24,
+  "Gross Weight (kg)": 10.2,
+  "Carton Size (cm)": "35*26.5*21"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "9080 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "90/85/80",
+  "Jar Weight (g)": 310,
+  "Capacity (ml) water-measured": 320,
+  "Qty per Carton (pcs)": 48,
+  "Gross Weight (kg)": 16,
+  "Carton Size (cm)": "37*28*34"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "9080 Thick-Wall Cup",
+  "Size (mm) Top / Bottom / Height": "90/85/80",
+  "Jar Weight (g)": 450,
+  "Capacity (ml) water-measured": 275,
+  "Qty per Carton (pcs)": 36,
+  "Gross Weight (kg)": 17.2,
+  "Carton Size (cm)": "37*28*25.6"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "88100 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "88/83/100",
+  "Jar Weight (g)": 320,
+  "Capacity (ml) water-measured": 410,
+  "Qty per Carton (pcs)": 48,
+  "Gross Weight (kg)": 15.5,
+  "Carton Size (cm)": "54.3*36.5*21.5"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "90100 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "90/85/102",
+  "Jar Weight (g)": 350,
+  "Capacity (ml) water-measured": 430,
+  "Qty per Carton (pcs)": 48,
+  "Gross Weight (kg)": 16.5,
+  "Carton Size (cm)": "54.3*36.5*21.5"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "116 Water Cup",
+  "Size (mm) Top / Bottom / Height": "88/60/148",
+  "Jar Weight (g)": 370,
+  "Capacity (ml) water-measured": 490,
+  "Qty per Carton (pcs)": 48,
+  "Gross Weight (kg)": 18.5,
+  "Carton Size (cm)": "46.6*31.4*30.8"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "10100 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "100/94/101",
+  "Jar Weight (g)": 410,
+  "Capacity (ml) water-measured": 550,
+  "Qty per Carton (pcs)": 36,
+  "Gross Weight (kg)": 15,
+  "Carton Size (cm)": "40*30.5*30.8"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "10125 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "100/92/125",
+  "Jar Weight (g)": 530,
+  "Capacity (ml) water-measured": 690,
+  "Qty per Carton (pcs)": 30,
+  "Gross Weight (kg)": 16.7,
+  "Carton Size (cm)": "49.5*30.5*26.2"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "98110 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "98/93/110 (wall thickness 5mm)",
+  "Jar Weight (g)": 559,
+  "Capacity (ml) water-measured": 540,
+  "Qty per Carton (pcs)": 24,
+  "Gross Weight (kg)": 14.5,
+  "Carton Size (cm)": "41*31*23.3"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "10110 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "100/92/110 (wall thickness 5mm)",
+  "Jar Weight (g)": 670,
+  "Capacity (ml) water-measured": 550,
+  "Qty per Carton (pcs)": 24,
+  "Gross Weight (kg)": 17,
+  "Carton Size (cm)": "41*31*23.3"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "10146 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "100/93/146",
+  "Jar Weight (g)": 640,
+  "Capacity (ml) water-measured": 790,
+  "Qty per Carton (pcs)": 24,
+  "Gross Weight (kg)": 16,
+  "Carton Size (cm)": "40.2*30.4*30"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "10076 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "100/94/76",
+  "Jar Weight (g)": 300,
+  "Capacity (ml) water-measured": 400,
+  "Qty per Carton (pcs)": 48,
+  "Gross Weight (kg)": 16.4,
+  "Carton Size (cm)": "40.6*31*31.8"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "11080 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "110/103/80",
+  "Jar Weight (g)": 410,
+  "Capacity (ml) water-measured": 530,
+  "Qty per Carton (pcs)": 36,
+  "Gross Weight (kg)": 15.6,
+  "Carton Size (cm)": "44.2*33.4*25.3"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "12085 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "120/115/85",
+  "Jar Weight (g)": 523,
+  "Capacity (ml) water-measured": 700,
+  "Qty per Carton (pcs)": 24,
+  "Gross Weight (kg)": 13.5,
+  "Carton Size (cm)": "49.5*25.5*27"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "13080 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "130/123/80",
+  "Jar Weight (g)": 520,
+  "Capacity (ml) water-measured": 730,
+  "Qty per Carton (pcs)": 24,
+  "Gross Weight (kg)": 14,
+  "Carton Size (cm)": "39.5*26.5*33.5"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "15080 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "150/143/80",
+  "Jar Weight (g)": 770,
+  "Capacity (ml) water-measured": 930,
+  "Qty per Carton (pcs)": 24,
+  "Gross Weight (kg)": 19,
+  "Carton Size (cm)": "46*31*35.2"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "135125 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "135/105/125",
+  "Jar Weight (g)": 720,
+  "Capacity (ml) water-measured": 1100,
+  "Qty per Carton (pcs)": 24,
+  "Gross Weight (kg)": 18,
+  "Carton Size (cm)": "49.5*38.5*26.2"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "12120 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "120/113/120",
+  "Jar Weight (g)": 720,
+  "Capacity (ml) water-measured": 950,
+  "Qty per Carton (pcs)": 24,
+  "Gross Weight (kg)": 19.64,
+  "Carton Size (cm)": "49.7*37.2*26"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "15150 Candle Jar",
+  "Size (mm) Top / Bottom / Height": "150/143/150",
+  "Jar Weight (g)": 1300,
+  "Capacity (ml) water-measured": 2000,
+  "Qty per Carton (pcs)": 24,
+  "Gross Weight (kg)": 15.5,
+  "Carton Size (cm)": "46.5*31.5*31.2"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "19076",
+  "Size (mm) Top / Bottom / Height": "190/184/75",
+  "Jar Weight (g)": 1150,
+  "Capacity (ml) water-measured": 1530,
+  "Qty per Carton (pcs)": 12,
+  "Gross Weight (kg)": 16.5,
+  "Carton Size (cm)": "59*39*17"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "20080 Bowl",
+  "Size (mm) Top / Bottom / Height": "200/195/80",
+  "Jar Weight (g)": 1400,
+  "Capacity (ml) water-measured": "-",
+  "Qty per Carton (pcs)": 8,
+  "Gross Weight (kg)": 20,
+  "Carton Size (cm)": "41.5*41.5*25.5"
+ },
+ {
+  "Series": "Clear Glass Series",
+  "Item": "25080 Bowl",
+  "Size (mm) Top / Bottom / Height": "250/240/80",
+  "Jar Weight (g)": 2550,
+  "Capacity (ml) water-measured": "-",
+  "Qty per Carton (pcs)": 6,
+  "Gross Weight (kg)": 21.5,
+  "Carton Size (cm)": "52*26.5*34.5"
+ },
+ {
+  "Series": "Square & Octagon Series",
+  "Item": "52 Square Jar",
+  "Size (mm) Top / Bottom / Height": "52/48/52",
+  "Jar Weight (g)": 100,
+  "Capacity (ml) water-measured": 80,
+  "Qty per Carton (pcs)": 144,
+  "Gross Weight (kg)": 15,
+  "Carton Size (cm)": "42.5*32*16.5"
+ },
+ {
+  "Series": "Square & Octagon Series",
+  "Item": "60 Square Jar",
+  "Size (mm) Top / Bottom / Height": "60/57/60",
+  "Jar Weight (g)": 140,
+  "Capacity (ml) water-measured": 135,
+  "Qty per Carton (pcs)": 96,
+  "Gross Weight (kg)": 15,
+  "Carton Size (cm)": "37*25*25.4"
+ },
+ {
+  "Series": "Square & Octagon Series",
+  "Item": "80 Square Jar",
+  "Size (mm) Top / Bottom / Height": "80/75/80",
+  "Jar Weight (g)": 330,
+  "Capacity (ml) water-measured": 300,
+  "Qty per Carton (pcs)": 48,
+  "Gross Weight (kg)": 16.4,
+  "Carton Size (cm)": "32.8*24.8*33.5"
+ },
+ {
+  "Series": "Square & Octagon Series",
+  "Item": "10 Square Jar",
+  "Size (mm) Top / Bottom / Height": "100/95/100",
+  "Jar Weight (g)": 580,
+  "Capacity (ml) water-measured": 640,
+  "Qty per Carton (pcs)": 36,
+  "Gross Weight (kg)": 14,
+  "Carton Size (cm)": "40.5*30.5*21.2"
+ },
+ {
+  "Series": "Square & Octagon Series",
+  "Item": "12 Square Jar",
+  "Size (mm) Top / Bottom / Height": "120/110/120",
+  "Jar Weight (g)": 960,
+  "Capacity (ml) water-measured": "-",
+  "Qty per Carton (pcs)": 12,
+  "Gross Weight (kg)": 12,
+  "Carton Size (cm)": "36*23.8*25"
+ },
+ {
+  "Series": "Square & Octagon Series",
+  "Item": "15 Square Jar",
+  "Size (mm) Top / Bottom / Height": "150/135/150",
+  "Jar Weight (g)": 1820,
+  "Capacity (ml) water-measured": "-",
+  "Qty per Carton (pcs)": 12,
+  "Gross Weight (kg)": 23,
+  "Carton Size (cm)": "47.5*32*32"
+ },
+ {
+  "Series": "Square & Octagon Series",
+  "Item": "18 Square Jar",
+  "Size (mm) Top / Bottom / Height": "180/170/180",
+  "Jar Weight (g)": 3480,
+  "Capacity (ml) water-measured": "-",
+  "Qty per Carton (pcs)": 8,
+  "Gross Weight (kg)": 24.3,
+  "Carton Size (cm)": "38.5*38.5*38.5"
+ },
+ {
+  "Series": "Square & Octagon Series",
+  "Item": "8 × 8 Octagonal Jar",
+  "Size (mm) Top / Bottom / Height": "80/75/80",
+  "Jar Weight (g)": 275,
+  "Capacity (ml) water-measured": "-",
+  "Qty per Carton (pcs)": "48 (4 per box)",
+  "Gross Weight (kg)": 17,
+  "Carton Size (cm)": "33.5*33.5*27.5"
+ },
+ {
+  "Series": "Square & Octagon Series",
+  "Item": "10 × 10 Octagonal Jar",
+  "Size (mm) Top / Bottom / Height": "100/93/125",
+  "Jar Weight (g)": 480,
+  "Capacity (ml) water-measured": "-",
+  "Qty per Carton (pcs)": "36 (1 per box)",
+  "Gross Weight (kg)": 19.5,
+  "Carton Size (cm)": "42.5*32*32"
+ },
+ {
+  "Series": "Square & Octagon Series",
+  "Item": "12 × 12 Octagonal Jar",
+  "Size (mm) Top / Bottom / Height": "120/112/120",
+  "Jar Weight (g)": 828,
+  "Capacity (ml) water-measured": "-",
+  "Qty per Carton (pcs)": "24 (1 per box)",
+  "Gross Weight (kg)": 23,
+  "Carton Size (cm)": "50.5*26*38.5"
+ },
+ {
+  "Series": "Square & Octagon Series",
+  "Item": "15 × 15 Octagonal Jar",
+  "Size (mm) Top / Bottom / Height": "150/140/150",
+  "Jar Weight (g)": 1470,
+  "Capacity (ml) water-measured": "-",
+  "Qty per Carton (pcs)": "12 (1 per box)",
+  "Gross Weight (kg)": 27,
+  "Carton Size (cm)": "47*31.5*31.8"
+ },
+ {
+  "Series": "Square & Octagon Series",
+  "Item": "Shell Jar",
+  "Size (mm) Top / Bottom / Height": "84 × 30",
+  "Jar Weight (g)": 310,
+  "Capacity (ml) water-measured": "-",
+  "Qty per Carton (pcs)": "Lid 120 / Base 96",
+  "Gross Weight (kg)": "-",
+  "Carton Size (cm)": "-"
+ },
+ {
+  "Series": "Square & Octagon Series",
+  "Item": "Ink Jar",
+  "Size (mm) Top / Bottom / Height": "Top 82 / Bottom 120 / Height 100",
+  "Jar Weight (g)": 300,
+  "Capacity (ml) water-measured": 790,
+  "Qty per Carton (pcs)": 36,
+  "Gross Weight (kg)": "-",
+  "Carton Size (cm)": "-"
+ },
+ {
+  "Series": "Square & Octagon Series",
+  "Item": "Boat-Shaped Jar",
+  "Size (mm) Top / Bottom / Height": "L192 × W112 × H84",
+  "Jar Weight (g)": 730,
+  "Capacity (ml) water-measured": 770,
+  "Qty per Carton (pcs)": 24,
+  "Gross Weight (kg)": "-",
+  "Carton Size (cm)": "44*37.6*26.8"
+ },
+ {
+  "Series": "Curved Bottom Series",
+  "Item": "5346 Curved-Bottom Cup",
+  "Size (mm) Top / Bottom / Height": "54/48 (Top / Height)",
+  "Jar Weight (g)": 60,
+  "Capacity (ml) water-measured": 65,
+  "Qty per Carton (pcs)": 192,
+  "Gross Weight (kg)": 12,
+  "Carton Size (cm)": "42*31.6*20"
+ },
+ {
+  "Series": "Curved Bottom Series",
+  "Item": "7080 Curved-Bottom Cup",
+  "Size (mm) Top / Bottom / Height": "70/50/81",
+  "Jar Weight (g)": 180,
+  "Capacity (ml) water-measured": 200,
+  "Qty per Carton (pcs)": 96,
+  "Gross Weight (kg)": 18.2,
+  "Carton Size (cm)": "42*28.5*34.5"
+ },
+ {
+  "Series": "Curved Bottom Series",
+  "Item": "7585 Curved-Bottom Cup",
+  "Size (mm) Top / Bottom / Height": "75/75/85",
+  "Jar Weight (g)": 220,
+  "Capacity (ml) water-measured": 250,
+  "Qty per Carton (pcs)": 72,
+  "Gross Weight (kg)": 16.5,
+  "Carton Size (cm)": "38*31*36"
+ },
+ {
+  "Series": "Curved Bottom Series",
+  "Item": "7590 Curved-Bottom Cup",
+  "Size (mm) Top / Bottom / Height": "75/70/90",
+  "Jar Weight (g)": 255,
+  "Capacity (ml) water-measured": 250,
+  "Qty per Carton (pcs)": 60,
+  "Gross Weight (kg)": 15,
+  "Carton Size (cm)": "39.5*31.8*28"
+ },
+ {
+  "Series": "Curved Bottom Series",
+  "Item": "8090 Curved-Bottom Cup",
+  "Size (mm) Top / Bottom / Height": "80/75/90",
+  "Jar Weight (g)": 250,
+  "Capacity (ml) water-measured": 295,
+  "Qty per Carton (pcs)": 72,
+  "Gross Weight (kg)": 18.6,
+  "Carton Size (cm)": "48.5*32.5*28.3"
+ },
+ {
+  "Series": "Curved Bottom Series",
+  "Item": "80105 Curved-Bottom Cup",
+  "Size (mm) Top / Bottom / Height": "80/75/105",
+  "Jar Weight (g)": 300,
+  "Capacity (ml) water-measured": 350,
+  "Qty per Carton (pcs)": 48,
+  "Gross Weight (kg)": 16,
+  "Carton Size (cm)": "48*32*22.5"
+ },
+ {
+  "Series": "Curved Bottom Series",
+  "Item": "85100 Curved-Bottom Cup",
+  "Size (mm) Top / Bottom / Height": "85/83/100",
+  "Jar Weight (g)": 415,
+  "Capacity (ml) water-measured": 370,
+  "Qty per Carton (pcs)": 48,
+  "Gross Weight (kg)": 21.5,
+  "Carton Size (cm)": "51.5*35*55"
+ },
+ {
+  "Series": "Curved Bottom Series",
+  "Item": "88100 Curved-Bottom Cup",
+  "Size (mm) Top / Bottom / Height": "88/83/100",
+  "Jar Weight (g)": 350,
+  "Capacity (ml) water-measured": 390,
+  "Qty per Carton (pcs)": 45,
+  "Gross Weight (kg)": 18.3,
+  "Carton Size (cm)": "46*28*31.6"
+ },
+ {
+  "Series": "Curved Bottom Series",
+  "Item": "85116 Curved-Bottom Cup",
+  "Size (mm) Top / Bottom / Height": "85/85/116",
+  "Jar Weight (g)": 460,
+  "Capacity (ml) water-measured": 420,
+  "Qty per Carton (pcs)": 36,
+  "Gross Weight (kg)": 18,
+  "Carton Size (cm)": "44*28*31.6"
+ },
+ {
+  "Series": "Curved Bottom Series",
+  "Item": "9094 Curved-Bottom Cup",
+  "Size (mm) Top / Bottom / Height": "90/85/94",
+  "Jar Weight (g)": 350,
+  "Capacity (ml) water-measured": 390,
+  "Qty per Carton (pcs)": 48,
+  "Gross Weight (kg)": 17.5,
+  "Carton Size (cm)": "55*37*20.5"
+ },
+ {
+  "Series": "Curved Bottom Series",
+  "Item": "96110 Curved-Bottom Cup",
+  "Size (mm) Top / Bottom / Height": "96/90/110",
+  "Jar Weight (g)": 480,
+  "Capacity (ml) water-measured": 500,
+  "Qty per Carton (pcs)": 24,
+  "Gross Weight (kg)": 12.5,
+  "Carton Size (cm)": "39*29.5*23.5"
+ },
+ {
+  "Series": "Curved Bottom Series",
+  "Item": "10100 Curved-Bottom Cup",
+  "Size (mm) Top / Bottom / Height": "100/94/101",
+  "Jar Weight (g)": 500,
+  "Capacity (ml) water-measured": 500,
+  "Qty per Carton (pcs)": 36,
+  "Gross Weight (kg)": 19,
+  "Carton Size (cm)": "40*30.5*30.8"
+ },
+ {
+  "Series": "Curved Bottom Series",
+  "Item": "10125 Curved-Bottom Cup",
+  "Size (mm) Top / Bottom / Height": "100/92/125",
+  "Jar Weight (g)": 620,
+  "Capacity (ml) water-measured": 620,
+  "Qty per Carton (pcs)": 30,
+  "Gross Weight (kg)": 19.5,
+  "Carton Size (cm)": "49.5*30.5*26.2"
+ },
+ {
+  "Series": "Curved Bottom Series",
+  "Item": "11080 Curved-Bottom Cup",
+  "Size (mm) Top / Bottom / Height": "110/103/80",
+  "Jar Weight (g)": 400,
+  "Capacity (ml) water-measured": 510,
+  "Qty per Carton (pcs)": 36,
+  "Gross Weight (kg)": 15.5,
+  "Carton Size (cm)": "44.2*33.4*25.3"
+ },
+ {
+  "Series": "Curved Bottom Series",
+  "Item": "13080 Curved-Bottom Cup",
+  "Size (mm) Top / Bottom / Height": "130/123/80",
+  "Jar Weight (g)": 610,
+  "Capacity (ml) water-measured": 730,
+  "Qty per Carton (pcs)": 24,
+  "Gross Weight (kg)": 16,
+  "Carton Size (cm)": "39.5*26.5*33.5"
+ },
+ {
+  "Series": "Glass Lid Jar Series",
+  "Item": "Beast King Jar Small",
+  "Size (mm) Diameter × Height": "82 × 92",
+  "Jar Weight (g)": 560,
+  "Capacity (ml) water-measured": 250
+ },
+ {
+  "Series": "Glass Lid Jar Series",
+  "Item": "Beast King Jar Large",
+  "Size (mm) Diameter × Height": "125 × 62",
+  "Jar Weight (g)": 920,
+  "Capacity (ml) water-measured": 370
+ },
+ {
+  "Series": "Glass Lid Jar Series",
+  "Item": "Bell Jar Mini",
+  "Size (mm) Diameter × Height": "84 × 113",
+  "Jar Weight (g)": 470,
+  "Capacity (ml) water-measured": 120
+ },
+ {
+  "Series": "Glass Lid Jar Series",
+  "Item": "Bell Jar Small",
+  "Size (mm) Diameter × Height": "90 × 116",
+  "Jar Weight (g)": 610,
+  "Capacity (ml) water-measured": 210
+ },
+ {
+  "Series": "Glass Lid Jar Series",
+  "Item": "Bell Jar Medium",
+  "Size (mm) Diameter × Height": "108 × 138",
+  "Jar Weight (g)": 960,
+  "Capacity (ml) water-measured": 390
+ },
+ {
+  "Series": "Glass Lid Jar Series",
+  "Item": "Bell Jar Large",
+  "Size (mm) Diameter × Height": "134 × 180",
+  "Jar Weight (g)": 1850,
+  "Capacity (ml) water-measured": 730
+ },
+ {
+  "Series": "Glass Lid Jar Series",
+  "Item": "Dome Bell Jar",
+  "Size (mm) Diameter × Height": "103 × 158",
+  "Jar Weight (g)": 910,
+  "Capacity (ml) water-measured": 320
+ },
+ {
+  "Series": "Glass Lid Jar Series",
+  "Item": "Mongolia Jar Small",
+  "Size (mm) Diameter × Height": "67 × 90",
+  "Jar Weight (g)": 156,
+  "Capacity (ml) water-measured": 75
+ },
+ {
+  "Series": "Glass Lid Jar Series",
+  "Item": "Mongolia Jar Medium",
+  "Size (mm) Diameter × Height": "105 × 120",
+  "Jar Weight (g)": 420,
+  "Capacity (ml) water-measured": 250
+ },
+ {
+  "Series": "Glass Lid Jar Series",
+  "Item": "Mongolia Jar Large",
+  "Size (mm) Diameter × Height": "138 × 158",
+  "Jar Weight (g)": 730,
+  "Capacity (ml) water-measured": 500
+ },
+ {
+  "Series": "Glass Lid Jar Series",
+  "Item": "Mongolia Jar Small-Medium",
+  "Size (mm) Diameter × Height": "91 × 114",
+  "Jar Weight (g)": 332,
+  "Capacity (ml) water-measured": 160
+ },
+ {
+  "Series": "Glass Lid Jar Series",
+  "Item": "Roman Jar Small",
+  "Size (mm) Diameter × Height": "68 × 110",
+  "Jar Weight (g)": 240,
+  "Capacity (ml) water-measured": 140
+ },
+ {
+  "Series": "Glass Lid Jar Series",
+  "Item": "Roman Jar Medium",
+  "Size (mm) Diameter × Height": "85 × 140",
+  "Jar Weight (g)": 450,
+  "Capacity (ml) water-measured": 300
+ },
+ {
+  "Series": "Glass Lid Jar Series",
+  "Item": "Roman Jar Large",
+  "Size (mm) Diameter × Height": "105 × 176",
+  "Jar Weight (g)": 760,
+  "Capacity (ml) water-measured": 550
+ },
+ {
+  "Series": "Glass Lid Jar Series",
+  "Item": "Jar with Glass Lid Small",
+  "Size (mm) Diameter × Height": "75 × 95",
+  "Jar Weight (g)": 307,
+  "Capacity (ml) water-measured": 220
+ },
+ {
+  "Series": "Glass Lid Jar Series",
+  "Item": "Jar with Glass Lid Large",
+  "Size (mm) Diameter × Height": "92 × 109",
+  "Jar Weight (g)": 548,
+  "Capacity (ml) water-measured": 370
+ }
+]

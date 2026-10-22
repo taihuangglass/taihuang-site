@@ -38,6 +38,7 @@ export const site = {
 export const nav = [
   { href: "/", label: "Home" },
   { href: "/products", label: "Products" },
+  { href: "/size-guide", label: "Size Guide" },
   { href: "/guides", label: "Guides" },
   { href: "/packaging", label: "Packaging" },
   { href: "/custom", label: "Custom OEM" },

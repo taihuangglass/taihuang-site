@@ -100,6 +100,13 @@ export default function SizesGuidePage() {
         . The thermal shock report names two sample sizes in millimetres. It
         does not automatically cover every ounce on this list.
       </p>
+      <p className="mt-6 text-base leading-7 text-ink/80">
+        Millimetre sizes and water capacity for every mould are in the{" "}
+        <Link href="/size-guide" className="text-accent hover:underline">
+          Size Guide
+        </Link>
+        .
+      </p>
       <p className="mt-6">
         <Link
           href="/products"

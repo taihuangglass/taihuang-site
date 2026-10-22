@@ -160,6 +160,10 @@ export default function Home() {
           >
             ounce sizes
           </Link>
+          , and millimetre sizes for every mould are in the{" "}
+          <Link href="/size-guide" className="text-accent hover:underline">
+            Size Guide
+          </Link>
           .
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
