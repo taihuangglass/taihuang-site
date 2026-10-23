@@ -48,8 +48,8 @@ export default function AboutPage() {
             after the test.
           </p>
           <p>
-            Buyers looking for a heat-resistant jar can read{" "}
-            <Link href="/guides/heat-resistant-glass-candle-jars" className="text-accent hover:underline">
+            Read{" "}
+            <Link href="/size-guide#thermal" className="text-accent hover:underline">
               what this test does and does not cover
             </Link>
             .

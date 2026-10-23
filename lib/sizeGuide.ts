@@ -1,4 +1,5 @@
 import raw from "@/data/sizeGuide.json";
+import type { ProductShape } from "@/types/product";
 
 export type SizeRow = {
   Series: string
@@ -59,6 +60,20 @@ export function waxFill(ml: number | null): string {
 
 export const catalogPdf = "/catalog/Taihuang-Candle-Jar-Size-Shape-Catalog.pdf";
 
-export function sizeGuideAnchorForShape(shape: string): string {
-  return shape === "square" ? "/size-guide#square-octagon" : "/size-guide";
+export function sizeGuideTargets(
+  shape: ProductShape,
+): { href: string; label: string }[] {
+  if (shape === "square") {
+    return [{ href: "/size-guide#square-octagon", label: "Square & Octagon series" }];
+  }
+  if (shape === "bell") {
+    return [{ href: "/size-guide#glass-lid", label: "Glass Lid Jar series" }];
+  }
+  if (shape === "round") {
+    return [
+      { href: "/size-guide#transparent", label: "Transparent Glass Cup series" },
+      { href: "/size-guide#arc-bottom", label: "Arc-Bottom Cup series" },
+    ];
+  }
+  return [{ href: "/size-guide", label: "Size Guide" }];
 }

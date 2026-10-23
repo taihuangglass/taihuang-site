@@ -14,6 +14,7 @@ export default function sitemap(): MetadataRoute.Sitemap {
     "/about",
     "/contact",
     "/guides",
+    "/guides/heat-resistant-glass-candle-jars",
     ...guides.map((guide) => guidePath(guide.slug)),
   ].map(
     (path) => ({

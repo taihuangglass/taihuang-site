@@ -49,6 +49,11 @@ export function LidGuide({
         <li>We send a photo or video of the finished sample for you to confirm.</li>
         <li>We ship.</li>
       </ol>
+      <p className="mt-3 text-base leading-7 text-ink/80">
+        Engraving depth, the largest logo that fits, and the lead time are
+        confirmed on the sample for that lid and that artwork. We do not print
+        one depth or one logo size for every lid.
+      </p>
 
       <p className="mt-10 text-base leading-7 text-ink/80">
         Choosing the jar first? Mouth diameters for every mould are in the{" "}

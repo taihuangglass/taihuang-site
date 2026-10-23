@@ -16,8 +16,9 @@ import {
   sizeLabel,
   soldLabel,
 } from "@/lib/products";
+import { astmReport } from "@/lib/certs";
 import { site } from "@/lib/site";
-import { sizeGuideAnchorForShape } from "@/lib/sizeGuide";
+import { sizeGuideTargets } from "@/lib/sizeGuide";
 import type { Metadata } from "next";
 
 export function generateStaticParams() {
@@ -139,15 +140,20 @@ export default async function ProductPage({
       <section className="mt-12 max-w-2xl">
         <h2 className="font-serif text-2xl">Sizes in millimetres</h2>
         <p className="mt-3 text-sm leading-6 text-ink/75">
-          Mouth, base, height, water capacity, and approximate wax fill for
-          every mould are in the{" "}
-          <Link
-            href={sizeGuideAnchorForShape(product.shape)}
-            className="text-accent hover:underline"
-          >
-            Size Guide
-          </Link>
-          .
+          This listing is sold by the ounce. Mouth, base, height, water
+          capacity, and approximate wax fill for the standard moulds are in the{" "}
+          {sizeGuideTargets(product.shape).map((target, index) => (
+            <span key={target.href}>
+              {index > 0 ? " and the " : ""}
+              <Link href={target.href} className="text-accent hover:underline">
+                {target.label}
+              </Link>
+            </span>
+          ))}
+          .{" "}
+          {product.shape === "spout"
+            ? "This spout jar is not in those four series. Quote it from the ounces on this page."
+            : "Match the ounce here to the water capacity there. The coloured listing does not lock one mould number."}
         </p>
       </section>
 
@@ -156,12 +162,13 @@ export default async function ProductPage({
         <p className="mt-3 text-sm leading-6 text-ink/75">
           Pouring hot wax is a thermal shock question. The ASTM C149 report
           covers two commissioned sample sizes, not this SKU by default.{" "}
-          <Link
-            href="/guides/heat-resistant-glass-candle-jars"
-            className="text-accent hover:underline"
-          >
-            Read what the test covers
+          <Link href="/size-guide#thermal" className="text-accent hover:underline">
+            What the test covers
           </Link>
+          .{" "}
+          <a href={astmReport.href} className="text-accent hover:underline">
+            {astmReport.linkLabel}
+          </a>
           .
         </p>
       </section>

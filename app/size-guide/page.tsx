@@ -71,7 +71,10 @@ export default function SizeGuidePage() {
           Lid logos are laser engraved. The lid engraving template fee is
           quoted per design. Sampling: HD logo file → preview rendering for
           your confirmation → template → photo or video of the finished sample
-          for your confirmation → ship.
+          for your confirmation → ship. Engraving depth, the largest logo that
+          fits, and the lead time are confirmed on that sample. They change
+          with the lid and the artwork, so this page does not print one number
+          for every lid.
         </p>
         <ul className="mt-4 space-y-1 text-sm">
           {lidGuides.map((g) => (
@@ -84,13 +87,15 @@ export default function SizeGuidePage() {
         </ul>
       </section>
 
-      <section className="mt-12 max-w-3xl">
+      <section id="thermal" className="mt-12 max-w-3xl scroll-mt-28">
         <h2 className="font-serif text-2xl">Thermal shock</h2>
         <p className="mt-3 text-sm leading-6 text-ink/75">
-          The relevant test standard for hot-wax pouring is ASTM C149 (thermal
-          shock). Our published report ({astmReport.method}) covers two sample
-          sizes only: {astmReport.samples}. It does not cover every mould on
-          this page.{" "}
+          Hot wax is a thermal shock question. The published test is ASTM C149
+          ({astmReport.method}) on two commissioned samples only:{" "}
+          {astmReport.samples}. Result: {astmReport.result} A catalog mould is
+          not covered just because the factory name is on the report. We do not
+          label these jars heat-resistant, borosilicate, or oven glass, and we
+          do not print a pouring temperature the report does not give.{" "}
           <a href={astmReport.href} className="text-accent hover:underline">
             {astmReport.linkLabel}
           </a>

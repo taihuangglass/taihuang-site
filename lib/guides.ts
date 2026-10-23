@@ -1,11 +1,5 @@
 export const guides = [
   {
-    slug: "heat-resistant-glass-candle-jars",
-    title: "Heat-resistant glass candle jars",
-    description:
-      "What buyers mean by a heat-resistant candle jar, and the one ASTM C149 thermal shock report Taihuang publishes.",
-  },
-  {
     slug: "glass-candle-jar-sizes",
     title: "Glass candle jar sizes",
     description:

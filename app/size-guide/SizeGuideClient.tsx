@@ -52,6 +52,12 @@ export function SizeGuideClient({ items }: { items: SizeItem[] }) {
             </button>
           ))}
         </div>
+        {range !== "all" ? (
+          <p className="mt-3 text-xs text-muted">
+            Moulds with no water capacity on the size sheet stay hidden while a
+            range is selected. Choose All capacities to see them.
+          </p>
+        ) : null}
       </div>
 
       {seriesList.map((s) => {

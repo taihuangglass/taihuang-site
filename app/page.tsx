@@ -146,25 +146,23 @@ export default function Home() {
           for the two reports we publish.
         </p>
         <p className="mt-3 max-w-2xl text-base leading-7 text-ink/80">
-          Searching for a jar that can take hot wax? Start with{" "}
-          <Link
-            href="/guides/heat-resistant-glass-candle-jars"
-            className="text-accent hover:underline"
-          >
-            heat-resistant glass candle jars
+          Millimetre sizes for every mould are in the{" "}
+          <Link href="/size-guide" className="text-accent hover:underline">
+            Size Guide
           </Link>
-          . Capacities are listed in{" "}
+          . Ounce names for the 12 finished listings are in{" "}
           <Link
             href="/guides/glass-candle-jar-sizes"
             className="text-accent hover:underline"
           >
             ounce sizes
           </Link>
-          , and millimetre sizes for every mould are in the{" "}
-          <Link href="/size-guide" className="text-accent hover:underline">
-            Size Guide
+          . Hot-wax pouring is one ASTM C149 report on two sample sizes, noted
+          under{" "}
+          <Link href="/size-guide#thermal" className="text-accent hover:underline">
+            thermal shock
           </Link>
-          .
+          . We do not label the catalog heat-resistant.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <Link

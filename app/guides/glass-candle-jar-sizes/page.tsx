@@ -6,7 +6,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Glass candle jar sizes",
   description:
-    "Empty glass candle jar capacities on the Taihuang catalog, listed in ounces. Height and wall thickness are confirmed on the quote, not guessed here.",
+    "The 12 finished Taihuang listings grouped by US fluid ounce. Millimetre mould sizes are in the Size Guide.",
   alternates: { canonical: "/guides/glass-candle-jar-sizes" },
 };
 
@@ -27,10 +27,13 @@ export default function SizesGuidePage() {
         Glass candle jar sizes
       </h1>
       <p className="mt-4 text-base leading-7 text-ink/80">
-        Catalog sizes are in US fluid ounces. That is the number candle brands
-        search. Height, diameter, and wall thickness in millimetres are not
-        printed on these pages, because they change with the mould. Ask for
-        them on the quote. We will not fill in a dimension we do not have.
+        These 12 listings are named in US fluid ounces, which is what candle
+        brands search. Mouth, base, height, water capacity, and approximate wax
+        fill for 101 moulds are in the{" "}
+        <Link href="/size-guide" className="text-accent hover:underline">
+          Size Guide
+        </Link>
+        . This page only groups the finished listings by ounce.
       </p>
       <p className="mt-3 text-base leading-7 text-ink/80">
         Every jar below is empty. You fill the wax. MOQ {site.moq} pcs. Price
@@ -90,22 +93,12 @@ export default function SizesGuidePage() {
       ) : null}
 
       <p className="mt-10 text-base leading-7 text-ink/80">
-        If you are choosing a size because the wax is poured hot, read{" "}
-        <Link
-          href="/guides/heat-resistant-glass-candle-jars"
-          className="text-accent hover:underline"
-        >
-          heat-resistant glass candle jars
+        If you are choosing a size because the wax is poured hot, read the{" "}
+        <Link href="/size-guide#thermal" className="text-accent hover:underline">
+          thermal shock note
         </Link>
-        . The thermal shock report names two sample sizes in millimetres. It
-        does not automatically cover every ounce on this list.
-      </p>
-      <p className="mt-6 text-base leading-7 text-ink/80">
-        Millimetre sizes and water capacity for every mould are in the{" "}
-        <Link href="/size-guide" className="text-accent hover:underline">
-          Size Guide
-        </Link>
-        .
+        . The ASTM C149 report names two sample sizes. It does not automatically
+        cover every ounce on this list.
       </p>
       <p className="mt-6">
         <Link

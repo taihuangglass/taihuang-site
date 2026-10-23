@@ -5,7 +5,7 @@ import { guides, guidePath } from "@/lib/guides";
 export const metadata: Metadata = {
   title: "Buyer guides",
   description:
-    "Plain-language notes for candle brands buying empty glass jars: heat resistance, ounce sizes, and custom OEM.",
+    "Plain-language notes for candle brands buying empty glass jars: ounce sizes, lid engraving, and custom OEM.",
   alternates: { canonical: "/guides" },
 };
 

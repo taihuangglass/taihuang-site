@@ -31,13 +31,14 @@ export default async function ProductsPage({
         See{" "}
         <Link href="/guides/glass-candle-jar-sizes" className="text-accent hover:underline">
           sizes in ounces
-        </Link>{" "}
-        or{" "}
-        <Link
-          href="/guides/heat-resistant-glass-candle-jars"
-          className="text-accent hover:underline"
-        >
-          heat resistance
+        </Link>
+        , millimetre moulds in the{" "}
+        <Link href="/size-guide" className="text-accent hover:underline">
+          Size Guide
+        </Link>
+        , or the{" "}
+        <Link href="/size-guide#thermal" className="text-accent hover:underline">
+          thermal shock note
         </Link>
         .
       </p>

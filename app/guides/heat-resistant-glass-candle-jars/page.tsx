@@ -4,9 +4,9 @@ import { astmReport } from "@/lib/certs";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Heat-resistant glass candle jars",
+  title: "Thermal shock test (ASTM C149)",
   description:
-    "Candle brands search for jars that survive hot wax. Here is what thermal shock means, and the one ASTM C149 report Taihuang publishes on two sample sizes.",
+    "Taihuang does not label the catalog heat-resistant. This page states what the one ASTM C149 report covers, and what it does not.",
   alternates: { canonical: "/guides/heat-resistant-glass-candle-jars" },
 };
 
@@ -47,21 +47,25 @@ export default function HeatGuidePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <p className="text-sm text-muted">
-        <Link href="/guides" className="hover:text-ink">
-          Guides
+        <Link href="/size-guide#thermal" className="hover:text-ink">
+          Size Guide
         </Link>
       </p>
       <p className="mt-6 text-xs uppercase tracking-[0.16em] text-muted">
-        For candle brands
+        Test report
       </p>
       <h1 className="mt-2 font-serif text-4xl leading-tight">
-        Heat-resistant glass candle jars
+        Thermal shock test (ASTM C149)
       </h1>
       <p className="mt-4 text-base leading-7 text-ink/80">
-        Buyers rarely search for ASTM C149. They search for a glass candle jar
-        that can take hot wax, a heat-resistant jar, or a vessel that will not
-        crack when they pour. This page is that question, plus the one test
-        report {site.brand} actually publishes.
+        {site.brand} does not label the catalog heat-resistant. Buyers often
+        search for a jar that can take hot wax. The answer we publish is one
+        ASTM C149 report on two sample sizes, not a rating for every mould.
+        Millimetre sizes are in the{" "}
+        <Link href="/size-guide" className="text-accent hover:underline">
+          Size Guide
+        </Link>
+        .
       </p>
 
       <h2 className="mt-12 font-serif text-3xl">
@@ -172,6 +176,15 @@ export default function HeatGuidePage() {
             Black jar with lid and box
           </Link>
           <span className="text-ink/75"> — 3 / 8 / 10 oz.</span>
+        </li>
+        <li>
+          <Link
+            href="/products/black-champagne-gold"
+            className="text-accent hover:underline"
+          >
+            Black champagne gold jar
+          </Link>
+          <span className="text-ink/75"> — 5 / 8 / 10 / 12 oz.</span>
         </li>
       </ul>
 
