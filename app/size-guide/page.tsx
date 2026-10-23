@@ -88,17 +88,23 @@ export default function SizeGuidePage() {
       </section>
 
       <section id="thermal" className="mt-12 max-w-3xl scroll-mt-28">
-        <h2 className="font-serif text-2xl">Thermal shock</h2>
+        <h2 className="font-serif text-2xl">Heat resistance</h2>
         <p className="mt-3 text-sm leading-6 text-ink/75">
-          Hot wax is a thermal shock question. The published test is ASTM C149
-          ({astmReport.method}) on two commissioned samples only:{" "}
-          {astmReport.samples}. Result: {astmReport.result} A catalog mould is
-          not covered just because the factory name is on the report. We do not
-          label these jars heat-resistant, borosilicate, or oven glass, and we
-          do not print a pouring temperature the report does not give.{" "}
+          Hot-wax pouring is a product specification we can document. The
+          published test is ASTM C149 ({astmReport.method}) on two commissioned
+          samples: {astmReport.samples}. Result: {astmReport.result} If you
+          found that report, or you need another mould checked before you pour,
+          send the size and your wax temperature with the inquiry.{" "}
           <a href={astmReport.href} className="text-accent hover:underline">
             {astmReport.linkLabel}
           </a>
+          .{" "}
+          <Link
+            href="/guides/heat-resistant-glass-candle-jars"
+            className="text-accent hover:underline"
+          >
+            Read the heat-resistance page
+          </Link>
           .
         </p>
       </section>

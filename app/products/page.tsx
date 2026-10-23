@@ -36,9 +36,12 @@ export default async function ProductsPage({
         <Link href="/size-guide" className="text-accent hover:underline">
           Size Guide
         </Link>
-        , or the{" "}
-        <Link href="/size-guide#thermal" className="text-accent hover:underline">
-          thermal shock note
+        , or{" "}
+        <Link
+          href="/guides/heat-resistant-glass-candle-jars"
+          className="text-accent hover:underline"
+        >
+          heat resistance
         </Link>
         .
       </p>

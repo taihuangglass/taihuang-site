@@ -1,5 +1,11 @@
 export const guides = [
   {
+    slug: "heat-resistant-glass-candle-jars",
+    title: "Heat-resistant glass candle jars",
+    description:
+      "Hot-wax pouring and the ASTM C149 thermal shock report Taihuang publishes. Ask on the quote if your size should be checked.",
+  },
+  {
     slug: "glass-candle-jar-sizes",
     title: "Glass candle jar sizes",
     description:

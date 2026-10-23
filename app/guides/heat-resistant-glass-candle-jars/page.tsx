@@ -4,9 +4,9 @@ import { astmReport } from "@/lib/certs";
 import { site } from "@/lib/site";
 
 export const metadata: Metadata = {
-  title: "Thermal shock test (ASTM C149)",
+  title: "Heat-resistant glass candle jars",
   description:
-    "Taihuang does not label the catalog heat-resistant. This page states what the one ASTM C149 report covers, and what it does not.",
+    "Heat resistance for hot-wax pouring, with the ASTM C149 thermal shock report Taihuang publishes. Send your jar size and pour temperature with the inquiry.",
   alternates: { canonical: "/guides/heat-resistant-glass-candle-jars" },
 };
 
@@ -47,21 +47,23 @@ export default function HeatGuidePage() {
         dangerouslySetInnerHTML={{ __html: JSON.stringify(faqJsonLd) }}
       />
       <p className="text-sm text-muted">
-        <Link href="/size-guide#thermal" className="hover:text-ink">
-          Size Guide
+        <Link href="/guides" className="hover:text-ink">
+          Guides
         </Link>
       </p>
       <p className="mt-6 text-xs uppercase tracking-[0.16em] text-muted">
-        Test report
+        For candle brands
       </p>
       <h1 className="mt-2 font-serif text-4xl leading-tight">
-        Thermal shock test (ASTM C149)
+        Heat-resistant glass candle jars
       </h1>
       <p className="mt-4 text-base leading-7 text-ink/80">
-        {site.brand} does not label the catalog heat-resistant. Buyers often
-        search for a jar that can take hot wax. The answer we publish is one
-        ASTM C149 report on two sample sizes, not a rating for every mould.
-        Millimetre sizes are in the{" "}
+        Heat resistance for hot-wax pouring is one of the specifications{" "}
+        {site.brand} can show. Buyers search for a jar that can take hot wax.
+        The document on file is an ASTM C149 thermal shock report on two
+        commissioned samples. If you found that report, or you want your own
+        size checked before you order, send the jar size and the wax
+        temperature you pour at. Millimetre moulds are in the{" "}
         <Link href="/size-guide" className="text-accent hover:underline">
           Size Guide
         </Link>

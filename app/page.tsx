@@ -157,12 +157,14 @@ export default function Home() {
           >
             ounce sizes
           </Link>
-          . Hot-wax pouring is one ASTM C149 report on two sample sizes, noted
-          under{" "}
-          <Link href="/size-guide#thermal" className="text-accent hover:underline">
-            thermal shock
+          . For hot-wax pouring, start with{" "}
+          <Link
+            href="/guides/heat-resistant-glass-candle-jars"
+            className="text-accent hover:underline"
+          >
+            heat-resistant glass candle jars
           </Link>
-          . We do not label the catalog heat-resistant.
+          . That page has the ASTM C149 report and the inquiry details.
         </p>
         <div className="mt-8 flex flex-wrap gap-3">
           <Link

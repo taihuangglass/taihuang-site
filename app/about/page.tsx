@@ -48,9 +48,9 @@ export default function AboutPage() {
             after the test.
           </p>
           <p>
-            Read{" "}
-            <Link href="/size-guide#thermal" className="text-accent hover:underline">
-              what this test does and does not cover
+            Buyers comparing jars for hot wax can read{" "}
+            <Link href="/guides/heat-resistant-glass-candle-jars" className="text-accent hover:underline">
+              the heat-resistance report and what to send with an inquiry
             </Link>
             .
           </p>
