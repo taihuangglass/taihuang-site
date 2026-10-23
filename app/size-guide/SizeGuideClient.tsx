@@ -1,5 +1,6 @@
 "use client";
 
+import Image from "next/image";
 import { useState } from "react";
 import { seriesList, waxFill, type SizeItem } from "@/lib/sizeGuide";
 
@@ -74,9 +75,10 @@ export function SizeGuideClient({ items }: { items: SizeItem[] }) {
               <p className="mt-4 text-sm text-ink/70">No mould in this capacity range.</p>
             ) : (
               <div className="mt-4 overflow-x-auto rounded-2xl border border-line">
-                <table className="w-full min-w-[720px] text-left text-sm">
+                <table className="w-full min-w-[820px] text-left text-sm">
                   <thead className="bg-card text-xs uppercase tracking-[0.08em] text-muted">
                     <tr>
+                      <th className="px-3 py-2">Photo</th>
                       <th className="px-3 py-2">Model</th>
                       <th className="px-3 py-2">{s.sizeLabel}</th>
                       <th className="px-3 py-2">Water capacity (ml)</th>
@@ -94,6 +96,19 @@ export function SizeGuideClient({ items }: { items: SizeItem[] }) {
                   <tbody className="divide-y divide-line">
                     {shown.map((i) => (
                       <tr key={i.item}>
+                        <td className="px-3 py-2">
+                          {i.image ? (
+                            <Image
+                              src={i.image}
+                              alt={i.item}
+                              width={64}
+                              height={64}
+                              className="h-14 w-14 object-contain"
+                            />
+                          ) : (
+                            "—"
+                          )}
+                        </td>
                         <td className="px-3 py-2 font-medium">{i.item}</td>
                         <td className="px-3 py-2">{i.size}</td>
                         <td className="px-3 py-2">{i.capacityMl ?? "—"}</td>

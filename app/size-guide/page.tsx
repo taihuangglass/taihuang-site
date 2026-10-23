@@ -29,7 +29,8 @@ export default function SizeGuidePage() {
         Glass candle jar size guide
       </h1>
       <p className="mt-4 max-w-3xl text-base leading-7 text-ink/80">
-        {sizeItems.length} moulds in four series. Sizes are mouth / base /
+        {sizeItems.length} moulds in four series. Each row shows the mould photo
+        from the size and shape catalog. Sizes are mouth / base /
         height in millimetres (diameter × height for the glass lid series).
         Capacity is measured with water. A dash means the figure is not on our
         size sheet; ask on the quote. Empty jars only. MOQ {site.moq} pcs.

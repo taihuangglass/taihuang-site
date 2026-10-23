@@ -1,4 +1,5 @@
 import raw from "@/data/sizeGuide.json";
+import images from "@/data/sizeGuideImages.json";
 import type { ProductShape } from "@/types/product";
 
 export type SizeRow = {
@@ -16,6 +17,7 @@ export type SizeRow = {
 export type SizeItem = {
   series: SeriesId
   item: string
+  image: string | null
   size: string
   weightG: string
   capacityMl: number | null
@@ -43,6 +45,7 @@ export const sizeItems: SizeItem[] = (raw as SizeRow[]).map((r) => {
   return {
     series: s.id,
     item: r.Item,
+    image: (images as Record<string, string>)[r.Item] ?? null,
     size: text(r["Size (mm) Top / Bottom / Height"] ?? r["Size (mm) Diameter × Height"]),
     weightG: text(r["Jar Weight (g)"]),
     capacityMl: typeof cap === "number" ? cap : null,
