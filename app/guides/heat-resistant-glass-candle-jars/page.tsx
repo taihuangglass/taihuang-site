@@ -107,7 +107,7 @@ export default function HeatGuidePage() {
 
       <h2 className="mt-12 font-serif text-3xl">What the report does not cover</h2>
       <p className="mt-4 text-base leading-7 text-ink/80">
-        Those two samples are not the twelve catalog jars, and they are not
+        Those two samples are not the thirteen catalog jars, and they are not
         every color or finish. A matte white square, an amber square, or a
         black jar with a lid is not automatically “the tested jar.” If your
         size, wall, or finish is different, ask us to confirm before you treat
@@ -146,7 +146,7 @@ export default function HeatGuidePage() {
           href="/products"
           className="rounded-full border border-line px-5 py-2.5 text-sm hover:bg-card"
         >
-          View the 12 jars
+          View the 13 jars
         </Link>
       </p>
 

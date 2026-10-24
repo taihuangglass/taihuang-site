@@ -182,5 +182,20 @@
     "imageLook": "filled",
     "alibabaUrl": "https://www.alibaba.com/product-detail/Custom-Private-Label-Unique-Candle-Jar_1601366426137.html",
     "summary": "Clear iridescent extra-large jar with lid. Empty vessel. Capacity not listed on the Alibaba title. Separate listing from the 8oz / 10oz / 12oz iridescent jar."
+  },
+  {
+    "slug": "amber-empty-spout-8-12",
+    "title": "Empty Amber Spout Candle Jar",
+    "colors": ["amber"],
+    "shape": "spout",
+    "sizesOz": [8, 12],
+    "withLid": false,
+    "withBox": false,
+    "moq": 240,
+    "sold": 874,
+    "image": "/products/amber-empty-spout-8-12.jpg",
+    "imageLook": "filled",
+    "alibabaUrl": "https://www.alibaba.com/product-detail/Wholesale-8oz-12oz-Unique-Empty-Amber_1601852813699.html",
+    "summary": "Empty amber jar with a pouring spout. 8oz / 12oz."
   }
 ]
