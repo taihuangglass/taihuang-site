@@ -8,7 +8,7 @@ import type { Metadata } from "next";
 export const metadata: Metadata = {
   title: "Empty glass candle jars",
   description:
-    "Thirteen empty glass candle jars and vessels. Filter by shape, color, size, and lid. Price on inquiry. MOQ 240 pcs.",
+    "Fifteen empty glass candle jars and vessels. Filter by shape, color, size, and lid. Price on inquiry. MOQ 240 pcs.",
   alternates: { canonical: "/products" },
 };
 

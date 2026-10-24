@@ -74,7 +74,9 @@ export default async function ProductPage({
     ...(product.finish ? [["Finish", product.finish]] : []),
     ["Price", "Inquire"],
     ["MOQ", `${site.moq} pcs`],
-    ["Sold", soldLabel(product.sold)],
+    ...(typeof product.sold === "number"
+      ? [["Sold", soldLabel(product.sold)] as [string, string]]
+      : []),
   ];
 
   return (

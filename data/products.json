@@ -197,5 +197,33 @@
     "imageLook": "filled",
     "alibabaUrl": "https://www.alibaba.com/product-detail/Wholesale-8oz-12oz-Unique-Empty-Amber_1601852813699.html",
     "summary": "Empty amber jar with a pouring spout. 8oz / 12oz."
+  },
+  {
+    "slug": "transparent-amber-glass-lid-box",
+    "title": "Transparent Amber Candle Jar with Glass Lid and Box",
+    "colors": ["amber"],
+    "shape": "round",
+    "sizesOz": [7, 12],
+    "withLid": true,
+    "withBox": true,
+    "moq": 240,
+    "image": "/products/transparent-amber-glass-lid-box.jpg",
+    "imageLook": "filled",
+    "alibabaUrl": "https://www.alibaba.com/product-detail/Transparent-Amber-Glass-Candle-Jars-8oz_1601954723781.html",
+    "summary": "Transparent amber jar with a glass lid and a paper box. Empty vessel. 7oz / 12oz."
+  },
+  {
+    "slug": "black-glass-lid-box",
+    "title": "Black Candle Jar with Glass Lid and Box",
+    "colors": ["black"],
+    "shape": "round",
+    "sizesOz": [7, 12],
+    "withLid": true,
+    "withBox": true,
+    "moq": 240,
+    "image": "/products/black-glass-lid-box.jpg",
+    "imageLook": "empty",
+    "alibabaUrl": "https://www.alibaba.com/product-detail/Wholesale-Custom-Luxury-Matte-Black-8oz_1601975289566.html",
+    "summary": "Black jar with a glass lid and a paper box. Empty vessel. 7oz / 12oz."
   }
 ]

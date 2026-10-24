@@ -23,7 +23,7 @@ export type Product = {
   withBox: boolean
   thickBottom?: boolean
   moq: 240
-  sold: number
+  sold?: number
   image: string
   imageLook: ImageLook
   alibabaUrl: string

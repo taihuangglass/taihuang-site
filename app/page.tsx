@@ -76,7 +76,7 @@ export default function Home() {
               Catalog
             </p>
             <h2 className="mt-2 font-serif text-3xl md:text-4xl">
-              Thirteen empty vessels
+              Fifteen empty vessels
             </h2>
           </div>
           <Link href="/products" className="text-sm text-accent hover:underline">
@@ -150,7 +150,7 @@ export default function Home() {
           <Link href="/size-guide" className="text-accent hover:underline">
             Size Guide
           </Link>
-          . Ounce names for the 13 finished listings are in{" "}
+          . Ounce names for the 15 finished listings are in{" "}
           <Link
             href="/guides/glass-candle-jar-sizes"
             className="text-accent hover:underline"

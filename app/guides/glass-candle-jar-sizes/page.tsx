@@ -6,7 +6,7 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Glass candle jar sizes",
   description:
-    "The 13 finished Taihuang listings grouped by US fluid ounce. Millimetre mould sizes are in the Size Guide.",
+    "The 15 finished Taihuang listings grouped by US fluid ounce. Millimetre mould sizes are in the Size Guide.",
   alternates: { canonical: "/guides/glass-candle-jar-sizes" },
 };
 
@@ -27,7 +27,7 @@ export default function SizesGuidePage() {
         Glass candle jar sizes
       </h1>
       <p className="mt-4 text-base leading-7 text-ink/80">
-        These 13 listings are named in US fluid ounces, which is what candle
+        These 15 listings are named in US fluid ounces, which is what candle
         brands search. Mouth, base, height, water capacity, and approximate wax
         fill for 101 moulds are in the{" "}
         <Link href="/size-guide" className="text-accent hover:underline">
