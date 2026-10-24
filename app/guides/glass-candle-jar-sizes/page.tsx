@@ -93,15 +93,16 @@ export default function SizesGuidePage() {
       ) : null}
 
       <p className="mt-10 text-base leading-7 text-ink/80">
-        If you are choosing a size because the wax is poured hot, read{" "}
+        Every catalog jar is a heat-resistant candle jar. If you are choosing a
+        size because the wax is poured hot, read{" "}
         <Link
           href="/guides/heat-resistant-glass-candle-jars"
           className="text-accent hover:underline"
         >
           heat-resistant glass candle jars
         </Link>
-        . The ASTM C149 report names two sample sizes. Ask on the quote if the
-        ounce you want should be checked the same way.
+        . The ASTM C149 report names two sample sizes. Ask on the quote if you
+        need a report for the ounce you will order.
       </p>
       <p className="mt-6">
         <Link

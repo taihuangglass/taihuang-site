@@ -6,14 +6,14 @@ import { site } from "@/lib/site";
 export const metadata: Metadata = {
   title: "Heat-resistant glass candle jars",
   description:
-    "Heat resistance for hot-wax pouring, with the ASTM C149 thermal shock report Taihuang publishes. Send your jar size and pour temperature with the inquiry.",
+    "Every Taihuang catalog jar is a heat-resistant candle jar. The public ASTM C149 report lists two models. We test the size you order.",
   alternates: { canonical: "/guides/heat-resistant-glass-candle-jars" },
 };
 
 const faqs = [
   {
-    q: "Do you rate every jar as heat resistant?",
-    a: "No. The published report covers two commissioned sample sizes. A catalog jar is not included just because the factory name is on the report.",
+    q: "Are the jars on this site heat resistant?",
+    a: "Yes. Every jar in the catalog is a heat-resistant candle jar. The report we can show today lists two models, because one report carries two. If you need a report for the size you will order, we test that size.",
   },
   {
     q: "What temperature can I pour at?",
@@ -58,12 +58,12 @@ export default function HeatGuidePage() {
         Heat-resistant glass candle jars
       </h1>
       <p className="mt-4 text-base leading-7 text-ink/80">
-        Heat resistance for hot-wax pouring is one of the specifications{" "}
-        {site.brand} can show. Buyers search for a jar that can take hot wax.
-        The document on file is an ASTM C149 thermal shock report on two
-        commissioned samples. If you found that report, or you want your own
-        size checked before you order, send the jar size and the wax
-        temperature you pour at. Millimetre moulds are in the{" "}
+        Every jar in the {site.brand} catalog is a heat-resistant candle jar
+        for hot-wax pouring. The document we can show today is an ASTM C149
+        thermal shock report on two commissioned samples. One report lists two
+        models, so we do not print a separate certificate for each of the
+        fifteen jars. If you need the report for your size, send the jar size
+        and the wax temperature you pour at. Millimetre moulds are in the{" "}
         <Link href="/size-guide" className="text-accent hover:underline">
           Size Guide
         </Link>
@@ -105,21 +105,68 @@ export default function HeatGuidePage() {
         </a>
       </p>
 
-      <h2 className="mt-12 font-serif text-3xl">What the report does not cover</h2>
+      <h2 className="mt-12 font-serif text-3xl">What this PDF lists</h2>
       <p className="mt-4 text-base leading-7 text-ink/80">
-        Those two samples are not the fifteen catalog jars, and they are not
-        every color or finish. A matte white square, an amber square, or a
-        black jar with a lid is not automatically “the tested jar.” If your
-        size, wall, or finish is different, ask us to confirm before you treat
-        this PDF as your spec.
+        The PDF lists two models: 80×90 mm with a 6 mm wall, and 56×66 mm with
+        a 3 mm wall. One report carries two models, so the other catalog jars
+        are not printed on this file. They are still heat-resistant candle
+        jars. A matte white square, an amber square, a black jar with a lid, a
+        glass-lid jar, and the amber spout jar are in that catalog. If you
+        need a report for the size you will order, we test that size.
       </p>
       <p className="mt-3 text-base leading-7 text-ink/80">
-        The same limit is on the{" "}
+        The same two samples are named on the{" "}
         <Link href="/about" className="text-accent hover:underline">
           factory page
         </Link>
         . Inspection reports describe the samples that were tested.
       </p>
+
+      <h2 className="mt-12 font-serif text-3xl">Glass lids and the spout jar</h2>
+      <p className="mt-4 text-base leading-7 text-ink/80">
+        The newer listings are heat-resistant candle jars as well. Their
+        ounces are not the two models on the PDF above. Read{" "}
+        <Link
+          href="/guides/glass-lid-candle-jars"
+          className="text-accent hover:underline"
+        >
+          glass lid candle jars
+        </Link>{" "}
+        for the 7 oz and 12 oz jars with a glass lid and a paper box, and for
+        the amber spout jar.
+      </p>
+      <ul className="mt-4 space-y-2 text-base leading-7">
+        <li>
+          <Link
+            href="/products/transparent-amber-glass-lid-box"
+            className="text-accent hover:underline"
+          >
+            Transparent amber jar with a glass lid and a paper box
+          </Link>
+          <span className="text-ink/75"> — 7 / 12 oz. Empty vessel.</span>
+        </li>
+        <li>
+          <Link
+            href="/products/black-glass-lid-box"
+            className="text-accent hover:underline"
+          >
+            Black jar with a glass lid and a paper box
+          </Link>
+          <span className="text-ink/75"> — 7 / 12 oz. Empty vessel.</span>
+        </li>
+        <li>
+          <Link
+            href="/products/amber-empty-spout-8-12"
+            className="text-accent hover:underline"
+          >
+            Empty amber spout jar
+          </Link>
+          <span className="text-ink/75">
+            {" "}
+            — 8 / 12 oz. No lid and no box.
+          </span>
+        </li>
+      </ul>
 
       <h2 className="mt-12 font-serif text-3xl">What to put on the inquiry</h2>
       <ul className="mt-4 list-disc space-y-2 pl-5 text-base leading-7 text-ink/80">

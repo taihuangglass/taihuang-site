@@ -162,9 +162,9 @@ export default async function ProductPage({
       <section className="mt-10 max-w-2xl">
         <h2 className="font-serif text-2xl">Hot wax</h2>
         <p className="mt-3 text-sm leading-6 text-ink/75">
-          Hot-wax pouring is part of the jar specification. The published
-          ASTM C149 report covers two commissioned sample sizes. If this SKU
-          should be checked the same way, say so on the inquiry.{" "}
+          Every jar in this catalog is a heat-resistant candle jar. The
+          published ASTM C149 report covers two commissioned sample sizes. If
+          you need a report for this size, say so on the inquiry.{" "}
           <Link
             href="/guides/heat-resistant-glass-candle-jars"
             className="text-accent hover:underline"

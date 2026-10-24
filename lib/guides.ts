@@ -3,7 +3,13 @@ export const guides = [
     slug: "heat-resistant-glass-candle-jars",
     title: "Heat-resistant glass candle jars",
     description:
-      "Hot-wax pouring and the ASTM C149 thermal shock report Taihuang publishes. Ask on the quote if your size should be checked.",
+      "Every catalog jar is a heat-resistant candle jar. The public ASTM C149 report lists two models. A report for your size is made when you need it.",
+  },
+  {
+    slug: "glass-lid-candle-jars",
+    title: "Glass lid candle jars",
+    description:
+      "Empty 7 oz and 12 oz jars with a glass lid and a paper box, plus the amber spout jar. Heat-resistant candle jars. MOQ 240 pcs.",
   },
   {
     slug: "glass-candle-jar-sizes",
