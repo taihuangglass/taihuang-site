@@ -2,7 +2,7 @@
 
 import Image from "next/image";
 import { useState } from "react";
-import { seriesList, waxFill, type SizeItem } from "@/lib/sizeGuide";
+import { seriesList, waxFill, maxFill, type SizeItem } from "@/lib/sizeGuide";
 
 const ranges = [
   { id: "all", label: "All capacities", min: 0, max: Infinity },
@@ -83,6 +83,7 @@ export function SizeGuideClient({ items }: { items: SizeItem[] }) {
                       <th className="px-3 py-2">{s.sizeLabel}</th>
                       <th className="px-3 py-2">Water capacity (ml)</th>
                       <th className="px-3 py-2">Approx. wax fill</th>
+                      <th className="px-3 py-2">Max fill (88%)</th>
                       <th className="px-3 py-2">Jar weight (g)</th>
                       {full ? (
                         <>
@@ -113,6 +114,7 @@ export function SizeGuideClient({ items }: { items: SizeItem[] }) {
                         <td className="px-3 py-2">{i.size}</td>
                         <td className="px-3 py-2">{i.capacityMl ?? "—"}</td>
                         <td className="px-3 py-2">{waxFill(i.capacityMl)}</td>
+                        <td className="px-3 py-2">{maxFill(i.capacityMl)}</td>
                         <td className="px-3 py-2">{i.weightG}</td>
                         {full ? (
                           <>

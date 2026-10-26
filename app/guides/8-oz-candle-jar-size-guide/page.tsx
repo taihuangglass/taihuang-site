@@ -1,7 +1,7 @@
 import type { Metadata } from "next";
 import Link from "next/link";
 import { site } from "@/lib/site";
-import { sizeItems, waxFill } from "@/lib/sizeGuide";
+import { sizeItems, waxFill, maxFill } from "@/lib/sizeGuide";
 
 export const metadata: Metadata = {
   title: "8 oz candle jar size guide: water capacity vs wax fill",
@@ -38,7 +38,9 @@ export default function EightOzGuidePage() {
         We measure capacity with water. Water weighs about 1 g per ml. Soy and
         paraffin wax are lighter, roughly 0.8–0.9 g per ml, and you leave space
         under the rim. A practical rule of thumb: wax fill in grams is about
-        70–80% of the water capacity in millilitres. Your wax blend, fragrance
+        70–80% of the water capacity in millilitres, and 88% is the practical
+        maximum, which leaves little headspace for the wick and burn. These are
+        estimates based on water volume. Your wax blend, fragrance
         load, and fill line move the number, so always test pour.
       </p>
 
@@ -51,6 +53,7 @@ export default function EightOzGuidePage() {
               <th className="px-3 py-2">Mouth / base / height (mm)</th>
               <th className="px-3 py-2">Water capacity (ml)</th>
               <th className="px-3 py-2">Approx. wax fill</th>
+              <th className="px-3 py-2">Max fill (88%)</th>
             </tr>
           </thead>
           <tbody className="divide-y divide-line">
@@ -60,6 +63,7 @@ export default function EightOzGuidePage() {
                 <td className="px-3 py-2">{i.size}</td>
                 <td className="px-3 py-2">{i.capacityMl ?? "—"}</td>
                 <td className="px-3 py-2">{waxFill(i.capacityMl)}</td>
+                <td className="px-3 py-2">{maxFill(i.capacityMl)}</td>
               </tr>
             ))}
           </tbody>

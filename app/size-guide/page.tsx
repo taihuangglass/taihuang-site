@@ -43,9 +43,13 @@ export default function SizeGuidePage() {
           Water weighs about 1 g per ml. Soy and paraffin wax are lighter,
           roughly 0.8–0.9 g per ml, and a candle is not poured to the brim. So
           the &ldquo;Approx. wax fill&rdquo; column is a rule of thumb: 70–80% of
-          the water capacity, in grams. Example: the 8090 Candle Jar (81/76/91
-          mm) holds 315 ml of water, so plan for about 221–252 g of wax. Test
-          pour your own wax before ordering labels.{" "}
+          the water capacity, in grams, is the recommended fill. The
+          &ldquo;Max fill (88%)&rdquo; column is the practical maximum; it leaves
+          little headspace for the wick and burn pool. Example: the 8090 Candle
+          Jar (81/76/91 mm) holds 315 ml of water, so plan for about 221–252 g of
+          wax, 277 g at most. All figures are estimates based on water volume;
+          wax is lighter than water, so test pour your own wax before ordering
+          labels.{" "}
           <Link href={guidePath("8-oz-candle-jar-size-guide")} className="text-accent hover:underline">
             Read the 8 oz candle jar size guide
           </Link>

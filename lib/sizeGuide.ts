@@ -61,6 +61,12 @@ export function waxFill(ml: number | null): string {
   return `${Math.round(ml * 0.7)}–${Math.round(ml * 0.8)} g`;
 }
 
+/** Practical maximum: 88% of water capacity, in grams. */
+export function maxFill(ml: number | null): string {
+  if (ml === null) return "—";
+  return `${Math.round(ml * 0.88)} g`;
+}
+
 export const catalogPdf = "/catalog/Taihuang-Candle-Jar-Size-Shape-Catalog.pdf";
 
 export function sizeGuideTargets(
