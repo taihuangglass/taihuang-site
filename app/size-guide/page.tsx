@@ -89,6 +89,43 @@ export default function SizeGuidePage() {
               </Link>
             </li>
           ))}
+          <li>
+            <Link
+              href="/guides/glass-lid-candle-jars"
+              className="text-accent hover:underline"
+            >
+              Glass lid candle jars
+            </Link>
+          </li>
+        </ul>
+        <ul className="mt-4 space-y-2 text-base leading-7 text-ink/80">
+          <li>
+            <Link
+              href="/products/amber-empty-spout-8-12"
+              className="text-accent hover:underline"
+            >
+              Empty amber spout jar
+            </Link>
+            {" — 8 oz / 12 oz. No lid, no box."}
+          </li>
+          <li>
+            <Link
+              href="/products/transparent-amber-glass-lid-box"
+              className="text-accent hover:underline"
+            >
+              Transparent amber jar
+            </Link>
+            {" — glass lid, paper box, 7 oz / 12 oz. Empty vessel."}
+          </li>
+          <li>
+            <Link
+              href="/products/black-glass-lid-box"
+              className="text-accent hover:underline"
+            >
+              Black jar
+            </Link>
+            {" — glass lid, paper box, 7 oz / 12 oz. Empty vessel."}
+          </li>
         </ul>
       </section>
 

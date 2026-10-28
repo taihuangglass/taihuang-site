@@ -53,7 +53,13 @@ export function Footer() {
         </div>
       </div>
       <div className="border-t border-paper/10 px-5 py-4 text-center text-xs text-paper/45">
-        Empty glass candle jars and vessels. Not a retail candle shop.
+        <p>
+          All jars are empty vessels. Buyers fill with wax themselves. MOQ{" "}
+          {site.moq} across the site.
+        </p>
+        <p className="mt-1">
+          Empty glass candle jars and vessels. Not a retail candle shop.
+        </p>
       </div>
     </footer>
   );
